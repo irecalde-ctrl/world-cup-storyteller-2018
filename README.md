@@ -136,3 +136,9 @@ Busca responder:
 > ¿Cómo reaccionó la gente mientras estaba ocurriendo?
 
 La narrativa es tan importante como los datos.
+
+## Limitaciones del dataset
+
+El dataset no ofrece una cobertura homogénea de los 16 partidos. Algunos encuentros presentan cobertura temporal parcial y otros no contienen tweets disponibles.
+
+Para evitar resultados artificiales, la aplicación no completa ni infiere datos inexistentes. Cuando no existe información social suficiente, se muestra una advertencia y se conserva únicamente la información histórica verificable del partido.
