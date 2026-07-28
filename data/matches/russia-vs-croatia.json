@@ -1,0 +1,853 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "russia-vs-croatia",
+  "match": "Russia vs Croatia",
+  "hero": {
+    "match": "Russia vs Croatia",
+    "stage": {
+      "key": "quarterfinals",
+      "label": "Cuartos de final"
+    },
+    "date": {
+      "iso": "2018-07-07",
+      "display": "7 de julio de 2018"
+    },
+    "team1": {
+      "name": "Russia",
+      "score": 2,
+      "flag_key": "Russia"
+    },
+    "team2": {
+      "name": "Croatia",
+      "score": 2,
+      "flag_key": "Croatia"
+    },
+    "score": "2 - 2",
+    "result_text": "Russia 2-2 Croatia (Croatia gana por penales)",
+    "winner": "Croatia",
+    "tweet_count": 0,
+    "raw_tweet_count": 0,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 33
+    },
+    "has_extra_time": true,
+    "has_shootout": true
+  },
+  "story": {
+    "match": "Russia vs Croatia",
+    "preview": {
+      "title": "La previa",
+      "text": "Rusia y Croacia se encontraron en cuartos de final del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 0 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "La cobertura disponible no permite definir con suficiente claridad qué equipo o emoción dominó la conversación."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "La información disponible no permite identificar con suficiente precisión un único punto de quiebre."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 2 - 2 y Croacia se quedó con la victoria. La clasificación se resolvió en la tanda de penales. La conversación y el resultado dejaron dos formas diferentes de recordar el encuentro."
+    },
+    "coverage_note": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "Russia vs Croatia",
+      "team1": "Russia",
+      "team2": "Croatia",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        },
+        {
+          "key": "extra_time_transition",
+          "label": "TIEMPO SUPLEMENTARIO",
+          "type": "transition",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 14,
+          "display_start": 100,
+          "display_end": 114,
+          "real_start": 105,
+          "real_end": 110
+        },
+        {
+          "key": "extra_time_first_half",
+          "label": "PRIMER TIEMPO SUPLEMENTARIO",
+          "type": "play",
+          "football_start": 90,
+          "football_end": 105,
+          "display_width": 15,
+          "display_start": 114,
+          "display_end": 129,
+          "real_start": 110,
+          "real_end": 125
+        },
+        {
+          "key": "extra_time_halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 129,
+          "display_end": 139,
+          "real_start": 125,
+          "real_end": 127
+        },
+        {
+          "key": "extra_time_second_half",
+          "label": "SEGUNDO TIEMPO SUPLEMENTARIO",
+          "type": "play",
+          "football_start": 105,
+          "football_end": 120,
+          "display_width": 15,
+          "display_start": 139,
+          "display_end": 154,
+          "real_start": 127,
+          "real_end": 142
+        },
+        {
+          "key": "shootout",
+          "label": "PENALES",
+          "type": "shootout",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 24,
+          "display_start": 154,
+          "display_end": 178,
+          "real_start": 142,
+          "real_end": 162
+        }
+      ],
+      "display_end": 178,
+      "has_extra_time": true,
+      "has_shootout": true,
+      "events": [
+        {
+          "minute": 31,
+          "event": "Cheryshev marca un golazo para Rusia",
+          "importance": 8
+        },
+        {
+          "minute": 39,
+          "event": "Kramarić empata para Croacia",
+          "importance": 7
+        },
+        {
+          "minute": 101,
+          "event": "Vida adelanta a Croacia en el tiempo suplementario",
+          "importance": 8
+        },
+        {
+          "minute": 115,
+          "event": "Fernandes empata para Rusia sobre el final",
+          "importance": 9
+        },
+        {
+          "minute": 120,
+          "event": "Croacia vuelve a clasificar en los penales",
+          "importance": 10
+        }
+      ],
+      "shootout": [
+        {
+          "order": 1,
+          "team": "Russia",
+          "player": "Smolov",
+          "outcome": "saved"
+        },
+        {
+          "order": 2,
+          "team": "Croatia",
+          "player": "Brozović",
+          "outcome": "scored"
+        },
+        {
+          "order": 3,
+          "team": "Russia",
+          "player": "Dzagoev",
+          "outcome": "scored"
+        },
+        {
+          "order": 4,
+          "team": "Croatia",
+          "player": "Kovačić",
+          "outcome": "saved"
+        },
+        {
+          "order": 5,
+          "team": "Russia",
+          "player": "Mário Fernandes",
+          "outcome": "missed"
+        },
+        {
+          "order": 6,
+          "team": "Croatia",
+          "player": "Modrić",
+          "outcome": "scored"
+        },
+        {
+          "order": 7,
+          "team": "Russia",
+          "player": "Ignashevich",
+          "outcome": "scored"
+        },
+        {
+          "order": 8,
+          "team": "Croatia",
+          "player": "Vida",
+          "outcome": "scored"
+        },
+        {
+          "order": 9,
+          "team": "Russia",
+          "player": "Kuzyaev",
+          "outcome": "scored"
+        },
+        {
+          "order": 10,
+          "team": "Croatia",
+          "player": "Rakitić",
+          "outcome": "scored"
+        }
+      ]
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 107.0,
+        "display_start": 100.0,
+        "display_end": 114.0,
+        "elapsed_start": 105,
+        "elapsed_end": 110,
+        "period_key": "extra_time_transition",
+        "period_label": "Tiempo Suplementario",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 116.5,
+        "display_start": 114.0,
+        "display_end": 119.0,
+        "elapsed_start": 110,
+        "elapsed_end": 115,
+        "period_key": "extra_time_first_half",
+        "period_label": "Primer Tiempo Suplementario · 90′–95′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 121.5,
+        "display_start": 119.0,
+        "display_end": 124.0,
+        "elapsed_start": 115,
+        "elapsed_end": 120,
+        "period_key": "extra_time_first_half",
+        "period_label": "Primer Tiempo Suplementario · 95′–100′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 126.5,
+        "display_start": 124.0,
+        "display_end": 129.0,
+        "elapsed_start": 120,
+        "elapsed_end": 125,
+        "period_key": "extra_time_first_half",
+        "period_label": "Primer Tiempo Suplementario · 100′–105′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 134.0,
+        "display_start": 129.0,
+        "display_end": 139.0,
+        "elapsed_start": 125,
+        "elapsed_end": 127,
+        "period_key": "extra_time_halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 141.5,
+        "display_start": 139.0,
+        "display_end": 144.0,
+        "elapsed_start": 127,
+        "elapsed_end": 132,
+        "period_key": "extra_time_second_half",
+        "period_label": "Segundo Tiempo Suplementario · 105′–110′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 146.5,
+        "display_start": 144.0,
+        "display_end": 149.0,
+        "elapsed_start": 132,
+        "elapsed_end": 137,
+        "period_key": "extra_time_second_half",
+        "period_label": "Segundo Tiempo Suplementario · 110′–115′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 151.5,
+        "display_start": 149.0,
+        "display_end": 154.0,
+        "elapsed_start": 137,
+        "elapsed_end": 142,
+        "period_key": "extra_time_second_half",
+        "period_label": "Segundo Tiempo Suplementario · 115′–120′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 157.0,
+        "display_start": 154.0,
+        "display_end": 160.0,
+        "elapsed_start": 142,
+        "elapsed_end": 147,
+        "period_key": "shootout",
+        "period_label": "Penales",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 163.0,
+        "display_start": 160.0,
+        "display_end": 166.0,
+        "elapsed_start": 147,
+        "elapsed_end": 152,
+        "period_key": "shootout",
+        "period_label": "Penales",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 169.0,
+        "display_start": 166.0,
+        "display_end": 172.0,
+        "elapsed_start": 152,
+        "elapsed_end": 157,
+        "period_key": "shootout",
+        "period_label": "Penales",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 175.0,
+        "display_start": 172.0,
+        "display_end": 178.0,
+        "elapsed_start": 157,
+        "elapsed_end": 162,
+        "period_key": "shootout",
+        "period_label": "Penales",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": false,
+    "match": "Russia vs Croatia",
+    "team1": {
+      "name": "Russia",
+      "mentions": 0,
+      "percentage": 0.0
+    },
+    "team2": {
+      "name": "Croatia",
+      "mentions": 0,
+      "percentage": 0.0
+    },
+    "total_mentions": 0,
+    "dominant_team": null,
+    "difference": 0.0,
+    "interpretation": "No existe cobertura suficiente para calcular el dominio de la conversación."
+  },
+  "emotional_climate": {
+    "available": false,
+    "match": "Russia vs Croatia",
+    "team1": {
+      "name": "Russia",
+      "summary": {
+        "total_tweets": 0,
+        "classified_tweets": 0,
+        "neutral_tweets": 0,
+        "classification_rate": 0.0,
+        "counts": {
+          "Euforia": 0,
+          "Tensión": 0,
+          "Conflicto": 0,
+          "Tristeza": 0
+        },
+        "percentages": {
+          "Euforia": 0.0,
+          "Tensión": 0.0,
+          "Conflicto": 0.0,
+          "Tristeza": 0.0
+        },
+        "predominant_emotion": null
+      }
+    },
+    "team2": {
+      "name": "Croatia",
+      "summary": {
+        "total_tweets": 0,
+        "classified_tweets": 0,
+        "neutral_tweets": 0,
+        "classification_rate": 0.0,
+        "counts": {
+          "Euforia": 0,
+          "Tensión": 0,
+          "Conflicto": 0,
+          "Tristeza": 0
+        },
+        "percentages": {
+          "Euforia": 0.0,
+          "Tensión": 0.0,
+          "Conflicto": 0.0,
+          "Tristeza": 0.0
+        },
+        "predominant_emotion": null
+      }
+    },
+    "overall": {
+      "total_tweets": 0,
+      "classified_tweets": 0,
+      "neutral_tweets": 0,
+      "classification_rate": 0.0,
+      "counts": {
+        "Euforia": 0,
+        "Tensión": 0,
+        "Conflicto": 0,
+        "Tristeza": 0
+      },
+      "percentages": {
+        "Euforia": 0.0,
+        "Tensión": 0.0,
+        "Conflicto": 0.0,
+        "Tristeza": 0.0
+      },
+      "predominant_emotion": null
+    },
+    "sampled": false,
+    "sample_size": 0,
+    "interpretation": "No existe cobertura suficiente para analizar el clima emocional."
+  },
+  "protagonists": {
+    "available": false,
+    "match": "Russia vs Croatia",
+    "ranking": [],
+    "total_player_mentions": 0,
+    "top_player": null,
+    "interpretation": "No existe cobertura suficiente para identificar protagonistas."
+  },
+  "featured_tweets": {
+    "available": false,
+    "match": "Russia vs Croatia",
+    "tweets": [],
+    "key_event": null,
+    "time_window_used": false
+  },
+  "radiography": {
+    "match": "Russia vs Croatia",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Rusia 2–2 Croacia",
+        "detail": "Ganador: Croacia"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "0",
+        "detail": "Sin cobertura temporal"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Sin datos suficientes",
+        "detail": ""
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Sin datos suficientes",
+        "detail": ""
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Sin datos suficientes",
+        "detail": ""
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Sin cobertura temporal",
+        "detail": ""
+      }
+    ],
+    "final_sentence": "Croacia se quedó con el resultado de un partido cuya conversación dejó múltiples formas de recordarlo."
+  },
+  "data_quality": {
+    "level": "unavailable",
+    "label": "Sin datos sociales",
+    "message": "El dataset no contiene tuits disponibles para la fecha de este partido.",
+    "show_social_analysis": false,
+    "show_momentum": false,
+    "show_featured_tweets": false,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 33
+    },
+    "featured_tweets_review": "not_available",
+    "warning": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "croatia-vs-england",
+  "match": "Croatia vs England",
+  "hero": {
+    "match": "Croatia vs England",
+    "stage": {
+      "key": "semifinals",
+      "label": "Semifinal"
+    },
+    "date": {
+      "iso": "2018-07-11",
+      "display": "11 de julio de 2018"
+    },
+    "team1": {
+      "name": "Croatia",
+      "score": 2,
+      "flag_key": "Croatia"
+    },
+    "team2": {
+      "name": "England",
+      "score": 1,
+      "flag_key": "England"
+    },
+    "score": "2 - 1",
+    "result_text": "Croatia 2-1 England",
+    "winner": "Croatia",
+    "tweet_count": 6516,
+    "raw_tweet_count": 15232,
+    "coverage": {
+      "status": "partial",
+      "label": "Cobertura temporal parcial",
+      "percentage": 20.7,
+      "covered_intervals": 6,
+      "total_intervals": 29
+    },
+    "has_extra_time": true,
+    "has_shootout": false
+  },
+  "story": {
+    "match": "Croatia vs England",
+    "preview": {
+      "title": "La previa",
+      "text": "Croacia y Inglaterra se encontraron en semifinal del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 6.516 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "Inglaterra concentró el 55,5% de las menciones y se convirtió en el principal foco de atención de Twitter. La celebración, el asombro y la ilusión marcaron el tono dominante de la conversación. Euforia representó el 56,1% de los tuits con señales emocionales. En ese escenario, Ivan Perišić emergió como el protagonista más mencionado, con 367 apariciones."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 109: Mandžukić clasifica a Croacia a la final. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 2 - 1 y Croacia se quedó con la victoria. Inglaterra dominó la conversación, pero Croacia terminó escribiendo el desenlace deportivo."
+    },
+    "coverage_note": "Cobertura temporal parcial: el dataset contiene registros en el 20,7% de los intervalos. La historia evita atribuir reacciones a minutos sin datos."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "Croatia vs England",
+      "team1": "Croatia",
+      "team2": "England",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        },
+        {
+          "key": "extra_time_transition",
+          "label": "TIEMPO SUPLEMENTARIO",
+          "type": "transition",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 14,
+          "display_start": 100,
+          "display_end": 114,
+          "real_start": 105,
+          "real_end": 110
+        },
+        {
+          "key": "extra_time_first_half",
+          "label": "PRIMER TIEMPO SUPLEMENTARIO",
+          "type": "play",
+          "football_start": 90,
+          "football_end": 105,
+          "display_width": 15,
+          "display_start": 114,
+          "display_end": 129,
+          "real_start": 110,
+          "real_end": 125
+        },
+        {
+          "key": "extra_time_halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 129,
+          "display_end": 139,
+          "real_start": 125,
+          "real_end": 127
+        },
+        {
+          "key": "extra_time_second_half",
+          "label": "SEGUNDO TIEMPO SUPLEMENTARIO",
+          "type": "play",
+          "football_start": 105,
+          "football_end": 120,
+          "display_width": 15,
+          "display_start": 139,
+          "display_end": 154,
+          "real_start": 127,
+          "real_end": 142
+        }
+      ],
+      "display_end": 154,
+      "has_extra_time": true,
+      "has_shootout": false,
+      "events": [
+        {
+          "minute": 5,
+          "event": "Trippier adelanta a Inglaterra de tiro libre",
+          "importance": 7
+        },
+        {
+          "minute": 68,
+          "event": "Perišić empata para Croacia",
+          "importance": 9
+        },
+        {
+          "minute": 109,
+          "event": "Mandžukić clasifica a Croacia a la final",
+          "importance": 10
+        }
+      ],
+      "shootout": []
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": 1585.0,
+        "team2_mentions": 1342.0,
+        "team2_plot": -1342.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": 1418.0,
+        "team2_mentions": 1335.0,
+        "team2_plot": -1335.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": 993.0,
+        "team2_mentions": 968.0,
+        "team2_plot": -968.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": 883.0,
+        "team2_mentions": 1061.0,
+        "team2_plot": -1061.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": 941.0,
+        "team2_mentions": 1094.0,
+        "team2_plot": -1094.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 107.0,
+        "display_start": 100.0,
+        "display_end": 114.0,
+        "elapsed_start": 105,
+        "elapsed_end": 110,
+        "period_key": "extra_time_transition",
+        "period_label": "Tiempo Suplementario",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 116.5,
+        "display_start": 114.0,
+        "display_end": 119.0,
+        "elapsed_start": 110,
+        "elapsed_end": 115,
+        "period_key": "extra_time_first_half",
+        "period_label": "Primer Tiempo Suplementario · 90′–95′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 121.5,
+        "display_start": 119.0,
+        "display_end": 124.0,
+        "elapsed_start": 115,
+        "elapsed_end": 120,
+        "period_key": "extra_time_first_half",
+        "period_label": "Primer Tiempo Suplementario · 95′–100′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 126.5,
+        "display_start": 124.0,
+        "display_end": 129.0,
+        "elapsed_start": 120,
+        "elapsed_end": 125,
+        "period_key": "extra_time_first_half",
+        "period_label": "Primer Tiempo Suplementario · 100′–105′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 134.0,
+        "display_start": 129.0,
+        "display_end": 139.0,
+        "elapsed_start": 125,
+        "elapsed_end": 127,
+        "period_key": "extra_time_halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 141.5,
+        "display_start": 139.0,
+        "display_end": 144.0,
+        "elapsed_start": 127,
+        "elapsed_end": 132,
+        "period_key": "extra_time_second_half",
+        "period_label": "Segundo Tiempo Suplementario · 105′–110′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 146.5,
+        "display_start": 144.0,
+        "display_end": 149.0,
+        "elapsed_start": 132,
+        "elapsed_end": 137,
+        "period_key": "extra_time_second_half",
+        "period_label": "Segundo Tiempo Suplementario · 110′–115′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 151.5,
+        "display_start": 149.0,
+        "display_end": 154.0,
+        "elapsed_start": 137,
+        "elapsed_end": 142,
+        "period_key": "extra_time_second_half",
+        "period_label": "Segundo Tiempo Suplementario · 115′–120′",
+        "team1_mentions": 402.0,
+        "team2_mentions": 487.0,
+        "team2_plot": -487.0,
+        "has_coverage": true
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": true,
+    "match": "Croatia vs England",
+    "team1": {
+      "name": "Croatia",
+      "mentions": 3163,
+      "percentage": 44.5
+    },
+    "team2": {
+      "name": "England",
+      "mentions": 3940,
+      "percentage": 55.5
+    },
+    "total_mentions": 7103,
+    "dominant_team": "England",
+    "difference": 11.0,
+    "interpretation": "England dominó la conversación con el 55.5% de las menciones, una diferencia de 11.0 puntos porcentuales respecto de Croatia."
+  },
+  "emotional_climate": {
+    "available": true,
+    "match": "Croatia vs England",
+    "overall": {
+      "total_tweets": 6516,
+      "classified_tweets": 2227,
+      "neutral_tweets": 4289,
+      "classification_rate": 34.2,
+      "counts": {
+        "Euforia": 1252,
+        "Tensión": 480,
+        "Conflicto": 206,
+        "Tristeza": 289
+      },
+      "percentages": {
+        "Euforia": 56.1,
+        "Tensión": 21.6,
+        "Conflicto": 9.3,
+        "Tristeza": 13.0
+      },
+      "predominant_emotion": "Euforia"
+    },
+    "team1": {
+      "name": "Croatia",
+      "summary": {
+        "total_tweets": 3163,
+        "classified_tweets": 1138,
+        "neutral_tweets": 2025,
+        "classification_rate": 36.0,
+        "counts": {
+          "Euforia": 710,
+          "Tensión": 254,
+          "Conflicto": 75,
+          "Tristeza": 99
+        },
+        "percentages": {
+          "Euforia": 62.4,
+          "Tensión": 22.3,
+          "Conflicto": 6.6,
+          "Tristeza": 8.7
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "team2": {
+      "name": "England",
+      "summary": {
+        "total_tweets": 3940,
+        "classified_tweets": 1332,
+        "neutral_tweets": 2608,
+        "classification_rate": 33.8,
+        "counts": {
+          "Euforia": 669,
+          "Tensión": 284,
+          "Conflicto": 145,
+          "Tristeza": 234
+        },
+        "percentages": {
+          "Euforia": 50.2,
+          "Tensión": 21.3,
+          "Conflicto": 10.9,
+          "Tristeza": 17.6
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "sampled": false,
+    "sample_size": 6516,
+    "interpretation": "Euforia fue la emoción predominante del partido, con el 56.1% de los tuits que contenían señales emocionales."
+  },
+  "protagonists": {
+    "available": true,
+    "match": "Croatia vs England",
+    "ranking": [
+      {
+        "rank": 1,
+        "player": "Ivan Perišić",
+        "team": "Croatia",
+        "mentions": 367,
+        "share": 29.8,
+        "engagement": 1906
+      },
+      {
+        "rank": 2,
+        "player": "Harry Kane",
+        "team": "England",
+        "mentions": 289,
+        "share": 23.5,
+        "engagement": 2439
+      },
+      {
+        "rank": 3,
+        "player": "Luka Modrić",
+        "team": "Croatia",
+        "mentions": 180,
+        "share": 14.6,
+        "engagement": 1759
+      },
+      {
+        "rank": 4,
+        "player": "Raheem Sterling",
+        "team": "England",
+        "mentions": 63,
+        "share": 5.1,
+        "engagement": 406
+      },
+      {
+        "rank": 5,
+        "player": "Jordan Pickford",
+        "team": "England",
+        "mentions": 61,
+        "share": 5.0,
+        "engagement": 904
+      }
+    ],
+    "total_player_mentions": 1231,
+    "top_player": {
+      "rank": 1,
+      "player": "Ivan Perišić",
+      "team": "Croatia",
+      "mentions": 367,
+      "share": 29.8,
+      "engagement": 1906
+    },
+    "interpretation": "Ivan Perišić fue el jugador más mencionado del partido, con 367 apariciones en la conversación analizada."
+  },
+  "featured_tweets": {
+    "available": true,
+    "match": "Croatia vs England",
+    "tweets": [
+      {
+        "type": "most_viral",
+        "label": "🔥 Tweet más viral",
+        "text": "Croatia beat England to reach the World Cup final",
+        "likes": 0,
+        "retweets": 7179,
+        "engagement": 7179,
+        "emotion": "Euforia",
+        "selection_method": "editorial_override",
+        "translation_es": "Croacia derrota a Inglaterra y alcanza la final del Mundial."
+      },
+      {
+        "type": "representative",
+        "label": "💬 La emoción del partido",
+        "text": "Heartbreak for England as the team is knocked out of the World Cup by Croatia in the semi-final",
+        "likes": 0,
+        "retweets": 749,
+        "engagement": 749,
+        "emotion": "Tristeza",
+        "selection_method": "editorial_override",
+        "translation_es": "Desconsuelo para Inglaterra: Croacia elimina al equipo en las semifinales del Mundial."
+      },
+      {
+        "type": "key_moment",
+        "label": "⚽ Reacción al momento clave",
+        "text": "CROATIA ARE IN THE FINAL. An extra-time goal from Mandzukic breaks England hearts",
+        "likes": 0,
+        "retweets": 261,
+        "engagement": 261,
+        "emotion": "Tensión",
+        "selection_method": "editorial_override",
+        "translation_es": "Croacia está en la final. El gol de Mandžukić en el tiempo suplementario rompe los corazones ingleses."
+      }
+    ],
+    "key_event": {
+      "minute": 109,
+      "event": "Mandžukić clasifica a Croacia a la final",
+      "importance": 10
+    },
+    "time_window_used": true,
+    "window_start": "2018-07-11T18:30:00",
+    "window_end": "2018-07-11T22:22:00",
+    "editorial_status": "curated"
+  },
+  "radiography": {
+    "match": "Croatia vs England",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Croacia 2–1 Inglaterra",
+        "detail": "Ganador: Croacia"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "6.516",
+        "detail": "Cobertura temporal parcial"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Inglaterra 55,5%",
+        "detail": "Diferencia de 11,0 puntos"
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Ivan Perišić",
+        "detail": "367 menciones"
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Euforia",
+        "detail": "56,1% de las señales emocionales"
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Primer Tiempo · 25′–30′",
+        "detail": "2.927 menciones combinadas"
+      }
+    ],
+    "final_sentence": "Inglaterra dominó la conversación; Ivan Perišić fue el nombre propio y Croacia se quedó con el resultado."
+  },
+  "data_quality": {
+    "level": "partial_timeline",
+    "label": "Cobertura temporal parcial",
+    "message": "El dataset permite reconstruir solamente algunos tramos de la conversación.",
+    "show_social_analysis": true,
+    "show_momentum": true,
+    "show_featured_tweets": true,
+    "coverage": {
+      "status": "partial",
+      "label": "Cobertura temporal parcial",
+      "percentage": 20.7,
+      "covered_intervals": 6,
+      "total_intervals": 29
+    },
+    "featured_tweets_review": "curated",
+    "warning": "Cobertura temporal parcial: el dataset contiene registros en el 20,7% de los intervalos. La historia evita atribuir reacciones a minutos sin datos."
+  }
+}

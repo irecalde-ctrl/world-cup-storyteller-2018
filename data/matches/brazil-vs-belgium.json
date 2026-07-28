@@ -1,0 +1,566 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "brazil-vs-belgium",
+  "match": "Brazil vs Belgium",
+  "hero": {
+    "match": "Brazil vs Belgium",
+    "stage": {
+      "key": "quarterfinals",
+      "label": "Cuartos de final"
+    },
+    "date": {
+      "iso": "2018-07-06",
+      "display": "6 de julio de 2018"
+    },
+    "team1": {
+      "name": "Brazil",
+      "score": 1,
+      "flag_key": "Brazil"
+    },
+    "team2": {
+      "name": "Belgium",
+      "score": 2,
+      "flag_key": "Belgium"
+    },
+    "score": "1 - 2",
+    "result_text": "Brazil 1-2 Belgium",
+    "winner": "Belgium",
+    "tweet_count": 0,
+    "raw_tweet_count": 0,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 21
+    },
+    "has_extra_time": false,
+    "has_shootout": false
+  },
+  "story": {
+    "match": "Brazil vs Belgium",
+    "preview": {
+      "title": "La previa",
+      "text": "Brasil y Bélgica se encontraron en cuartos de final del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 0 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "La cobertura disponible no permite definir con suficiente claridad qué equipo o emoción dominó la conversación."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "La información disponible no permite identificar con suficiente precisión un único punto de quiebre."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 1 - 2 y Bélgica se quedó con la victoria. La conversación y el resultado dejaron dos formas diferentes de recordar el encuentro."
+    },
+    "coverage_note": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "Brazil vs Belgium",
+      "team1": "Brazil",
+      "team2": "Belgium",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        }
+      ],
+      "display_end": 100,
+      "has_extra_time": false,
+      "has_shootout": false,
+      "events": [
+        {
+          "minute": 13,
+          "event": "Fernandinho marca en contra y adelanta a Bélgica",
+          "importance": 7
+        },
+        {
+          "minute": 31,
+          "event": "De Bruyne culmina el contraataque y marca el segundo",
+          "importance": 10
+        },
+        {
+          "minute": 76,
+          "event": "Renato Augusto descuenta para Brasil",
+          "importance": 7
+        }
+      ],
+      "shootout": []
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": false,
+    "match": "Brazil vs Belgium",
+    "team1": {
+      "name": "Brazil",
+      "mentions": 0,
+      "percentage": 0.0
+    },
+    "team2": {
+      "name": "Belgium",
+      "mentions": 0,
+      "percentage": 0.0
+    },
+    "total_mentions": 0,
+    "dominant_team": null,
+    "difference": 0.0,
+    "interpretation": "No existe cobertura suficiente para calcular el dominio de la conversación."
+  },
+  "emotional_climate": {
+    "available": false,
+    "match": "Brazil vs Belgium",
+    "team1": {
+      "name": "Brazil",
+      "summary": {
+        "total_tweets": 0,
+        "classified_tweets": 0,
+        "neutral_tweets": 0,
+        "classification_rate": 0.0,
+        "counts": {
+          "Euforia": 0,
+          "Tensión": 0,
+          "Conflicto": 0,
+          "Tristeza": 0
+        },
+        "percentages": {
+          "Euforia": 0.0,
+          "Tensión": 0.0,
+          "Conflicto": 0.0,
+          "Tristeza": 0.0
+        },
+        "predominant_emotion": null
+      }
+    },
+    "team2": {
+      "name": "Belgium",
+      "summary": {
+        "total_tweets": 0,
+        "classified_tweets": 0,
+        "neutral_tweets": 0,
+        "classification_rate": 0.0,
+        "counts": {
+          "Euforia": 0,
+          "Tensión": 0,
+          "Conflicto": 0,
+          "Tristeza": 0
+        },
+        "percentages": {
+          "Euforia": 0.0,
+          "Tensión": 0.0,
+          "Conflicto": 0.0,
+          "Tristeza": 0.0
+        },
+        "predominant_emotion": null
+      }
+    },
+    "overall": {
+      "total_tweets": 0,
+      "classified_tweets": 0,
+      "neutral_tweets": 0,
+      "classification_rate": 0.0,
+      "counts": {
+        "Euforia": 0,
+        "Tensión": 0,
+        "Conflicto": 0,
+        "Tristeza": 0
+      },
+      "percentages": {
+        "Euforia": 0.0,
+        "Tensión": 0.0,
+        "Conflicto": 0.0,
+        "Tristeza": 0.0
+      },
+      "predominant_emotion": null
+    },
+    "sampled": false,
+    "sample_size": 0,
+    "interpretation": "No existe cobertura suficiente para analizar el clima emocional."
+  },
+  "protagonists": {
+    "available": false,
+    "match": "Brazil vs Belgium",
+    "ranking": [],
+    "total_player_mentions": 0,
+    "top_player": null,
+    "interpretation": "No existe cobertura suficiente para identificar protagonistas."
+  },
+  "featured_tweets": {
+    "available": false,
+    "match": "Brazil vs Belgium",
+    "tweets": [],
+    "key_event": null,
+    "time_window_used": false
+  },
+  "radiography": {
+    "match": "Brazil vs Belgium",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Brasil 1–2 Bélgica",
+        "detail": "Ganador: Bélgica"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "0",
+        "detail": "Sin cobertura temporal"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Sin datos suficientes",
+        "detail": ""
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Sin datos suficientes",
+        "detail": ""
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Sin datos suficientes",
+        "detail": ""
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Sin cobertura temporal",
+        "detail": ""
+      }
+    ],
+    "final_sentence": "Bélgica se quedó con el resultado de un partido cuya conversación dejó múltiples formas de recordarlo."
+  },
+  "data_quality": {
+    "level": "unavailable",
+    "label": "Sin datos sociales",
+    "message": "El dataset no contiene tuits disponibles para la fecha de este partido.",
+    "show_social_analysis": false,
+    "show_momentum": false,
+    "show_featured_tweets": false,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 21
+    },
+    "featured_tweets_review": "not_available",
+    "warning": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  }
+}

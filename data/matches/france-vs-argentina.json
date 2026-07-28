@@ -1,0 +1,675 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "france-vs-argentina",
+  "match": "France vs Argentina",
+  "hero": {
+    "match": "France vs Argentina",
+    "stage": {
+      "key": "round_of_16",
+      "label": "Octavos de final"
+    },
+    "date": {
+      "iso": "2018-06-30",
+      "display": "30 de junio de 2018"
+    },
+    "team1": {
+      "name": "France",
+      "score": 4,
+      "flag_key": "France"
+    },
+    "team2": {
+      "name": "Argentina",
+      "score": 3,
+      "flag_key": "Argentina"
+    },
+    "score": "4 - 3",
+    "result_text": "France 4-3 Argentina",
+    "winner": "France",
+    "tweet_count": 5208,
+    "raw_tweet_count": 29772,
+    "coverage": {
+      "status": "partial",
+      "label": "Cobertura temporal parcial",
+      "percentage": 28.6,
+      "covered_intervals": 6,
+      "total_intervals": 21
+    },
+    "has_extra_time": false,
+    "has_shootout": false
+  },
+  "story": {
+    "match": "France vs Argentina",
+    "preview": {
+      "title": "La previa",
+      "text": "Francia y Argentina se encontraron en octavos de final del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 5.208 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "Argentina concentró el 61,2% de las menciones y se convirtió en el principal foco de atención de Twitter. La celebración, el asombro y la ilusión marcaron el tono dominante de la conversación. Euforia representó el 54,7% de los tuits con señales emocionales. En ese escenario, Lionel Messi emergió como el protagonista más mencionado, con 2.148 apariciones."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 57: Pavard marca uno de los goles más recordados del Mundial. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 4 - 3 y Francia se quedó con la victoria. Argentina dominó la conversación, pero Francia terminó escribiendo el desenlace deportivo."
+    },
+    "coverage_note": "Cobertura temporal parcial: el dataset contiene registros en el 28,6% de los intervalos. La historia evita atribuir reacciones a minutos sin datos."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "France vs Argentina",
+      "team1": "France",
+      "team2": "Argentina",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        }
+      ],
+      "display_end": 100,
+      "has_extra_time": false,
+      "has_shootout": false,
+      "events": [
+        {
+          "minute": 13,
+          "event": "Griezmann abre el marcador para Francia de penal",
+          "importance": 6
+        },
+        {
+          "minute": 41,
+          "event": "Di María empata con un golazo desde afuera del área",
+          "importance": 8
+        },
+        {
+          "minute": 48,
+          "event": "Mercado pone a Argentina arriba 2-1",
+          "importance": 8
+        },
+        {
+          "minute": 57,
+          "event": "Pavard marca uno de los goles más recordados del Mundial",
+          "importance": 10
+        },
+        {
+          "minute": 64,
+          "event": "Mbappé pone el 3-2 para Francia",
+          "importance": 9
+        },
+        {
+          "minute": 68,
+          "event": "Mbappé vuelve a convertir y amplía la ventaja",
+          "importance": 9
+        },
+        {
+          "minute": 90,
+          "event": "Agüero descuenta sobre el final",
+          "importance": 3
+        }
+      ],
+      "shootout": []
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": 935.0,
+        "team2_mentions": 1428.0,
+        "team2_plot": -1428.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": 1355.0,
+        "team2_mentions": 2359.0,
+        "team2_plot": -2359.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": 1164.0,
+        "team2_mentions": 1949.0,
+        "team2_plot": -1949.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": 1022.0,
+        "team2_mentions": 1675.0,
+        "team2_plot": -1675.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": 930.0,
+        "team2_mentions": 1451.0,
+        "team2_plot": -1451.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": 922.0,
+        "team2_mentions": 1346.0,
+        "team2_plot": -1346.0,
+        "has_coverage": true
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": true,
+    "match": "France vs Argentina",
+    "team1": {
+      "name": "France",
+      "mentions": 2361,
+      "percentage": 38.8
+    },
+    "team2": {
+      "name": "Argentina",
+      "mentions": 3729,
+      "percentage": 61.2
+    },
+    "total_mentions": 6090,
+    "dominant_team": "Argentina",
+    "difference": 22.4,
+    "interpretation": "Argentina dominó la conversación con el 61.2% de las menciones, una diferencia de 22.4 puntos porcentuales respecto de France."
+  },
+  "emotional_climate": {
+    "available": true,
+    "match": "France vs Argentina",
+    "overall": {
+      "total_tweets": 5208,
+      "classified_tweets": 1708,
+      "neutral_tweets": 3500,
+      "classification_rate": 32.8,
+      "counts": {
+        "Euforia": 934,
+        "Tensión": 130,
+        "Conflicto": 147,
+        "Tristeza": 497
+      },
+      "percentages": {
+        "Euforia": 54.7,
+        "Tensión": 7.6,
+        "Conflicto": 8.6,
+        "Tristeza": 29.1
+      },
+      "predominant_emotion": "Euforia"
+    },
+    "team1": {
+      "name": "France",
+      "summary": {
+        "total_tweets": 2361,
+        "classified_tweets": 780,
+        "neutral_tweets": 1581,
+        "classification_rate": 33.0,
+        "counts": {
+          "Euforia": 519,
+          "Tensión": 61,
+          "Conflicto": 42,
+          "Tristeza": 158
+        },
+        "percentages": {
+          "Euforia": 66.5,
+          "Tensión": 7.8,
+          "Conflicto": 5.4,
+          "Tristeza": 20.3
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "team2": {
+      "name": "Argentina",
+      "summary": {
+        "total_tweets": 3729,
+        "classified_tweets": 1255,
+        "neutral_tweets": 2474,
+        "classification_rate": 33.7,
+        "counts": {
+          "Euforia": 605,
+          "Tensión": 84,
+          "Conflicto": 117,
+          "Tristeza": 449
+        },
+        "percentages": {
+          "Euforia": 48.2,
+          "Tensión": 6.7,
+          "Conflicto": 9.3,
+          "Tristeza": 35.8
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "sampled": false,
+    "sample_size": 5208,
+    "interpretation": "Euforia fue la emoción predominante del partido, con el 54.7% de los tuits que contenían señales emocionales."
+  },
+  "protagonists": {
+    "available": true,
+    "match": "France vs Argentina",
+    "ranking": [
+      {
+        "rank": 1,
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "mentions": 2148,
+        "share": 57.4,
+        "engagement": 91929
+      },
+      {
+        "rank": 2,
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "mentions": 891,
+        "share": 23.8,
+        "engagement": 32084
+      },
+      {
+        "rank": 3,
+        "player": "Paul Pogba",
+        "team": "France",
+        "mentions": 131,
+        "share": 3.5,
+        "engagement": 11655
+      },
+      {
+        "rank": 4,
+        "player": "Sergio Agüero",
+        "team": "Argentina",
+        "mentions": 110,
+        "share": 2.9,
+        "engagement": 3520
+      },
+      {
+        "rank": 5,
+        "player": "Ángel Di María",
+        "team": "Argentina",
+        "mentions": 86,
+        "share": 2.3,
+        "engagement": 3974
+      }
+    ],
+    "total_player_mentions": 3740,
+    "top_player": {
+      "rank": 1,
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "mentions": 2148,
+      "share": 57.4,
+      "engagement": 91929
+    },
+    "interpretation": "Lionel Messi fue el jugador más mencionado del partido, con 2,148 apariciones en la conversación analizada."
+  },
+  "featured_tweets": {
+    "available": true,
+    "match": "France vs Argentina",
+    "tweets": [
+      {
+        "type": "most_viral",
+        "label": "🔥 Tweet más viral",
+        "text": "Pace power and cool in front of goal every attribute centre halves at this tournament are scared of. World class today from Mbappe",
+        "likes": 387,
+        "retweets": 48,
+        "engagement": 435,
+        "emotion": "Euforia",
+        "selection_method": "editorial_override",
+        "translation_es": "Ritmo, potencia y tranquilidad frente al arco: todos los atributos que asustaron a los defensores durante este Mundial. Mbappé estuvo a un nivel extraordinario."
+      },
+      {
+        "type": "representative",
+        "label": "💬 La emoción del partido",
+        "text": "Lionel Messi at his four tournaments. The only player to provide an assist at each of the last four World Cups. Probably the last time we will see this man at a World Cup. Gutted for him",
+        "likes": 247,
+        "retweets": 113,
+        "engagement": 360,
+        "emotion": "Tristeza",
+        "selection_method": "editorial_override",
+        "translation_es": "Messi dio una asistencia en cada uno de sus últimos cuatro Mundiales. Probablemente haya sido la última vez que lo vimos en una Copa del Mundo. Qué tristeza por él."
+      },
+      {
+        "type": "key_moment",
+        "label": "⚽ Reacción al momento clave",
+        "text": "GAME ONN Pavard fires in his first France goal in style",
+        "likes": 0,
+        "retweets": 33,
+        "engagement": 33,
+        "emotion": "Euforia",
+        "selection_method": "editorial_override",
+        "translation_es": "¡Hay partido! Pavard marca con enorme categoría su primer gol con la selección de Francia."
+      }
+    ],
+    "key_event": {
+      "minute": 57,
+      "event": "Pavard marca uno de los goles más recordados del Mundial",
+      "importance": 10
+    },
+    "time_window_used": true,
+    "window_start": "2018-06-30T14:30:00",
+    "window_end": "2018-06-30T17:45:00",
+    "editorial_status": "curated"
+  },
+  "radiography": {
+    "match": "France vs Argentina",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Francia 4–3 Argentina",
+        "detail": "Ganador: Francia"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "5.208",
+        "detail": "Cobertura temporal parcial"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Argentina 61,2%",
+        "detail": "Diferencia de 22,4 puntos"
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Lionel Messi",
+        "detail": "2.148 menciones"
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Euforia",
+        "detail": "54,7% de las señales emocionales"
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Segundo Tiempo · 65′–70′",
+        "detail": "3.714 menciones combinadas"
+      }
+    ],
+    "final_sentence": "Argentina dominó la conversación; Lionel Messi fue el nombre propio y Francia se quedó con el resultado."
+  },
+  "data_quality": {
+    "level": "partial_timeline",
+    "label": "Cobertura temporal parcial",
+    "message": "El dataset permite reconstruir solamente algunos tramos de la conversación.",
+    "show_social_analysis": true,
+    "show_momentum": true,
+    "show_featured_tweets": true,
+    "coverage": {
+      "status": "partial",
+      "label": "Cobertura temporal parcial",
+      "percentage": 28.6,
+      "covered_intervals": 6,
+      "total_intervals": 21
+    },
+    "featured_tweets_review": "curated",
+    "warning": "Cobertura temporal parcial: el dataset contiene registros en el 28,6% de los intervalos. La historia evita atribuir reacciones a minutos sin datos."
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "france-vs-belgium",
+  "match": "France vs Belgium",
+  "hero": {
+    "match": "France vs Belgium",
+    "stage": {
+      "key": "semifinals",
+      "label": "Semifinal"
+    },
+    "date": {
+      "iso": "2018-07-10",
+      "display": "10 de julio de 2018"
+    },
+    "team1": {
+      "name": "France",
+      "score": 1,
+      "flag_key": "France"
+    },
+    "team2": {
+      "name": "Belgium",
+      "score": 0,
+      "flag_key": "Belgium"
+    },
+    "score": "1 - 0",
+    "result_text": "France 1-0 Belgium",
+    "winner": "France",
+    "tweet_count": 5534,
+    "raw_tweet_count": 17610,
+    "coverage": {
+      "status": "partial",
+      "label": "Cobertura temporal parcial",
+      "percentage": 9.5,
+      "covered_intervals": 2,
+      "total_intervals": 21
+    },
+    "has_extra_time": false,
+    "has_shootout": false
+  },
+  "story": {
+    "match": "France vs Belgium",
+    "preview": {
+      "title": "La previa",
+      "text": "Francia y Bélgica se encontraron en semifinal del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 5.534 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "Francia concentró el 51,8% de las menciones y se convirtió en el principal foco de atención de Twitter. La celebración, el asombro y la ilusión marcaron el tono dominante de la conversación. Euforia representó el 73,4% de los tuits con señales emocionales. En ese escenario, Eden Hazard emergió como el protagonista más mencionado, con 728 apariciones."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 51: Umtiti marca el único gol y clasifica a Francia a la final. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 1 - 0 y Francia se quedó con la victoria. Francia dominó tanto la atención de Twitter como el desenlace del partido."
+    },
+    "coverage_note": "Cobertura temporal parcial: el dataset contiene registros en el 9,5% de los intervalos. La historia evita atribuir reacciones a minutos sin datos."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "France vs Belgium",
+      "team1": "France",
+      "team2": "Belgium",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        }
+      ],
+      "display_end": 100,
+      "has_extra_time": false,
+      "has_shootout": false,
+      "events": [
+        {
+          "minute": 51,
+          "event": "Umtiti marca el único gol y clasifica a Francia a la final",
+          "importance": 10
+        }
+      ],
+      "shootout": []
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": 796.0,
+        "team2_mentions": 263.0,
+        "team2_plot": -263.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": 1001.0,
+        "team2_mentions": 386.0,
+        "team2_plot": -386.0,
+        "has_coverage": true
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": true,
+    "match": "France vs Belgium",
+    "team1": {
+      "name": "France",
+      "mentions": 3788,
+      "percentage": 51.8
+    },
+    "team2": {
+      "name": "Belgium",
+      "mentions": 3529,
+      "percentage": 48.2
+    },
+    "total_mentions": 7317,
+    "dominant_team": "France",
+    "difference": 3.6,
+    "interpretation": "France dominó la conversación con el 51.8% de las menciones, una diferencia de 3.6 puntos porcentuales respecto de Belgium."
+  },
+  "emotional_climate": {
+    "available": true,
+    "match": "France vs Belgium",
+    "overall": {
+      "total_tweets": 5534,
+      "classified_tweets": 1580,
+      "neutral_tweets": 3954,
+      "classification_rate": 28.6,
+      "counts": {
+        "Euforia": 1161,
+        "Tensión": 148,
+        "Conflicto": 90,
+        "Tristeza": 181
+      },
+      "percentages": {
+        "Euforia": 73.4,
+        "Tensión": 9.4,
+        "Conflicto": 5.7,
+        "Tristeza": 11.5
+      },
+      "predominant_emotion": "Euforia"
+    },
+    "team1": {
+      "name": "France",
+      "summary": {
+        "total_tweets": 3788,
+        "classified_tweets": 1097,
+        "neutral_tweets": 2691,
+        "classification_rate": 29.0,
+        "counts": {
+          "Euforia": 848,
+          "Tensión": 105,
+          "Conflicto": 50,
+          "Tristeza": 94
+        },
+        "percentages": {
+          "Euforia": 77.2,
+          "Tensión": 9.6,
+          "Conflicto": 4.6,
+          "Tristeza": 8.6
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "team2": {
+      "name": "Belgium",
+      "summary": {
+        "total_tweets": 3529,
+        "classified_tweets": 972,
+        "neutral_tweets": 2557,
+        "classification_rate": 27.5,
+        "counts": {
+          "Euforia": 691,
+          "Tensión": 102,
+          "Conflicto": 56,
+          "Tristeza": 123
+        },
+        "percentages": {
+          "Euforia": 71.0,
+          "Tensión": 10.5,
+          "Conflicto": 5.8,
+          "Tristeza": 12.7
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "sampled": false,
+    "sample_size": 5534,
+    "interpretation": "Euforia fue la emoción predominante del partido, con el 73.4% de los tuits que contenían señales emocionales."
+  },
+  "protagonists": {
+    "available": true,
+    "match": "France vs Belgium",
+    "ranking": [
+      {
+        "rank": 1,
+        "player": "Eden Hazard",
+        "team": "Belgium",
+        "mentions": 728,
+        "share": 28.4,
+        "engagement": 10070
+      },
+      {
+        "rank": 2,
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "mentions": 425,
+        "share": 16.6,
+        "engagement": 7186
+      },
+      {
+        "rank": 3,
+        "player": "Romelu Lukaku",
+        "team": "Belgium",
+        "mentions": 278,
+        "share": 10.8,
+        "engagement": 4324
+      },
+      {
+        "rank": 4,
+        "player": "Antoine Griezmann",
+        "team": "France",
+        "mentions": 225,
+        "share": 8.8,
+        "engagement": 2776
+      },
+      {
+        "rank": 5,
+        "player": "Olivier Giroud",
+        "team": "France",
+        "mentions": 169,
+        "share": 6.6,
+        "engagement": 611
+      }
+    ],
+    "total_player_mentions": 2565,
+    "top_player": {
+      "rank": 1,
+      "player": "Eden Hazard",
+      "team": "Belgium",
+      "mentions": 728,
+      "share": 28.4,
+      "engagement": 10070
+    },
+    "interpretation": "Eden Hazard fue el jugador más mencionado del partido, con 728 apariciones en la conversación analizada."
+  },
+  "featured_tweets": {
+    "available": true,
+    "match": "France vs Belgium",
+    "tweets": [
+      {
+        "type": "most_viral",
+        "label": "🔥 Tweet más viral",
+        "text": "BREAKING: France through to the final following a semi-final win over Belgium",
+        "likes": 0,
+        "retweets": 564,
+        "engagement": 564,
+        "emotion": "Euforia",
+        "selection_method": "editorial_override",
+        "translation_es": "Último momento: Francia está en la final después de vencer a Bélgica en la semifinal."
+      },
+      {
+        "type": "representative",
+        "label": "💬 La emoción del partido",
+        "text": "Full time. Belgium miss out on the final, but it has been an amazing tournament",
+        "likes": 0,
+        "retweets": 191,
+        "engagement": 191,
+        "emotion": "Tristeza",
+        "selection_method": "editorial_override",
+        "translation_es": "Terminó el partido. Bélgica se queda afuera de la final, pero completó un Mundial extraordinario."
+      },
+      {
+        "type": "key_moment",
+        "label": "⚽ Reacción al momento clave",
+        "text": "FRANCE ARE IN THE FINAL. Umtiti's header is enough to give them the win over Belgium",
+        "likes": 0,
+        "retweets": 290,
+        "engagement": 290,
+        "emotion": "Euforia",
+        "selection_method": "editorial_override",
+        "translation_es": "Francia está en la final. El cabezazo de Umtiti fue suficiente para derrotar a Bélgica."
+      }
+    ],
+    "key_event": {
+      "minute": 51,
+      "event": "Umtiti marca el único gol y clasifica a Francia a la final",
+      "importance": 10
+    },
+    "time_window_used": true,
+    "window_start": "2018-07-10T18:30:00",
+    "window_end": "2018-07-10T21:45:00",
+    "editorial_status": "curated"
+  },
+  "radiography": {
+    "match": "France vs Belgium",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Francia 1–0 Bélgica",
+        "detail": "Ganador: Francia"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "5.534",
+        "detail": "Cobertura temporal parcial"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Francia 51,8%",
+        "detail": "Diferencia de 3,6 puntos"
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Eden Hazard",
+        "detail": "728 menciones"
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Euforia",
+        "detail": "73,4% de las señales emocionales"
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Segundo Tiempo · 85′–90′",
+        "detail": "1.387 menciones combinadas"
+      }
+    ],
+    "final_sentence": "Francia dominó la conversación; Eden Hazard fue el nombre propio y Francia se quedó con el resultado."
+  },
+  "data_quality": {
+    "level": "partial_timeline",
+    "label": "Cobertura temporal parcial",
+    "message": "El dataset permite reconstruir solamente algunos tramos de la conversación.",
+    "show_social_analysis": true,
+    "show_momentum": true,
+    "show_featured_tweets": true,
+    "coverage": {
+      "status": "partial",
+      "label": "Cobertura temporal parcial",
+      "percentage": 9.5,
+      "covered_intervals": 2,
+      "total_intervals": 21
+    },
+    "featured_tweets_review": "curated",
+    "warning": "Cobertura temporal parcial: el dataset contiene registros en el 9,5% de los intervalos. La historia evita atribuir reacciones a minutos sin datos."
+  }
+}

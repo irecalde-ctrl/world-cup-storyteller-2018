@@ -1,0 +1,655 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "uruguay-vs-portugal",
+  "match": "Uruguay vs Portugal",
+  "hero": {
+    "match": "Uruguay vs Portugal",
+    "stage": {
+      "key": "round_of_16",
+      "label": "Octavos de final"
+    },
+    "date": {
+      "iso": "2018-06-30",
+      "display": "30 de junio de 2018"
+    },
+    "team1": {
+      "name": "Uruguay",
+      "score": 2,
+      "flag_key": "Uruguay"
+    },
+    "team2": {
+      "name": "Portugal",
+      "score": 1,
+      "flag_key": "Portugal"
+    },
+    "score": "2 - 1",
+    "result_text": "Uruguay 2-1 Portugal",
+    "winner": "Uruguay",
+    "tweet_count": 1788,
+    "raw_tweet_count": 7481,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 21
+    },
+    "has_extra_time": false,
+    "has_shootout": false
+  },
+  "story": {
+    "match": "Uruguay vs Portugal",
+    "preview": {
+      "title": "La previa",
+      "text": "Uruguay y Portugal se encontraron en octavos de final del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 1.788 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "Portugal concentró el 64,4% de las menciones y se convirtió en el principal foco de atención de Twitter. La celebración, el asombro y la ilusión marcaron el tono dominante de la conversación. Euforia representó el 56,4% de los tuits con señales emocionales. En ese escenario, Cristiano Ronaldo emergió como el protagonista más mencionado, con 920 apariciones."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 62: Cavani marca nuevamente y define el partido. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 2 - 1 y Uruguay se quedó con la victoria. Portugal dominó la conversación, pero Uruguay terminó escribiendo el desenlace deportivo."
+    },
+    "coverage_note": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "Uruguay vs Portugal",
+      "team1": "Uruguay",
+      "team2": "Portugal",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        }
+      ],
+      "display_end": 100,
+      "has_extra_time": false,
+      "has_shootout": false,
+      "events": [
+        {
+          "minute": 7,
+          "event": "Cavani adelanta a Uruguay",
+          "importance": 7
+        },
+        {
+          "minute": 55,
+          "event": "Pepe empata para Portugal",
+          "importance": 8
+        },
+        {
+          "minute": 62,
+          "event": "Cavani marca nuevamente y define el partido",
+          "importance": 10
+        }
+      ],
+      "shootout": []
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": true,
+    "match": "Uruguay vs Portugal",
+    "team1": {
+      "name": "Uruguay",
+      "mentions": 808,
+      "percentage": 35.6
+    },
+    "team2": {
+      "name": "Portugal",
+      "mentions": 1464,
+      "percentage": 64.4
+    },
+    "total_mentions": 2272,
+    "dominant_team": "Portugal",
+    "difference": 28.8,
+    "interpretation": "Portugal dominó la conversación con el 64.4% de las menciones, una diferencia de 28.8 puntos porcentuales respecto de Uruguay."
+  },
+  "emotional_climate": {
+    "available": true,
+    "match": "Uruguay vs Portugal",
+    "overall": {
+      "total_tweets": 1788,
+      "classified_tweets": 530,
+      "neutral_tweets": 1258,
+      "classification_rate": 29.6,
+      "counts": {
+        "Euforia": 299,
+        "Tensión": 86,
+        "Conflicto": 45,
+        "Tristeza": 100
+      },
+      "percentages": {
+        "Euforia": 56.4,
+        "Tensión": 16.2,
+        "Conflicto": 8.5,
+        "Tristeza": 18.9
+      },
+      "predominant_emotion": "Euforia"
+    },
+    "team1": {
+      "name": "Uruguay",
+      "summary": {
+        "total_tweets": 808,
+        "classified_tweets": 235,
+        "neutral_tweets": 573,
+        "classification_rate": 29.1,
+        "counts": {
+          "Euforia": 132,
+          "Tensión": 52,
+          "Conflicto": 25,
+          "Tristeza": 26
+        },
+        "percentages": {
+          "Euforia": 56.2,
+          "Tensión": 22.1,
+          "Conflicto": 10.6,
+          "Tristeza": 11.1
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "team2": {
+      "name": "Portugal",
+      "summary": {
+        "total_tweets": 1464,
+        "classified_tweets": 444,
+        "neutral_tweets": 1020,
+        "classification_rate": 30.3,
+        "counts": {
+          "Euforia": 247,
+          "Tensión": 70,
+          "Conflicto": 38,
+          "Tristeza": 89
+        },
+        "percentages": {
+          "Euforia": 55.6,
+          "Tensión": 15.8,
+          "Conflicto": 8.6,
+          "Tristeza": 20.0
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "sampled": false,
+    "sample_size": 1788,
+    "interpretation": "Euforia fue la emoción predominante del partido, con el 56.4% de los tuits que contenían señales emocionales."
+  },
+  "protagonists": {
+    "available": true,
+    "match": "Uruguay vs Portugal",
+    "ranking": [
+      {
+        "rank": 1,
+        "player": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "mentions": 920,
+        "share": 70.8,
+        "engagement": 78183
+      },
+      {
+        "rank": 2,
+        "player": "Luis Suárez",
+        "team": "Uruguay",
+        "mentions": 159,
+        "share": 12.2,
+        "engagement": 3263
+      },
+      {
+        "rank": 3,
+        "player": "Edinson Cavani",
+        "team": "Uruguay",
+        "mentions": 112,
+        "share": 8.6,
+        "engagement": 10357
+      },
+      {
+        "rank": 4,
+        "player": "Pepe",
+        "team": "Portugal",
+        "mentions": 32,
+        "share": 2.5,
+        "engagement": 1123
+      },
+      {
+        "rank": 5,
+        "player": "Diego Godín",
+        "team": "Uruguay",
+        "mentions": 20,
+        "share": 1.5,
+        "engagement": 94
+      }
+    ],
+    "total_player_mentions": 1299,
+    "top_player": {
+      "rank": 1,
+      "player": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "mentions": 920,
+      "share": 70.8,
+      "engagement": 78183
+    },
+    "interpretation": "Cristiano Ronaldo fue el jugador más mencionado del partido, con 920 apariciones en la conversación analizada."
+  },
+  "featured_tweets": {
+    "available": true,
+    "match": "Uruguay vs Portugal",
+    "tweets": [
+      {
+        "type": "most_viral",
+        "label": "🔥 Tweet más viral",
+        "text": "The Greats have departed at the same stage on the same day. Ronaldo will be remembered at this World Cup",
+        "likes": 0,
+        "retweets": 2121,
+        "engagement": 2121,
+        "emotion": "Neutral",
+        "selection_method": "editorial_override",
+        "translation_es": "Las grandes figuras se despidieron del Mundial el mismo día y en la misma instancia. Ronaldo será recordado por su torneo."
+      },
+      {
+        "type": "representative",
+        "label": "💬 La emoción del partido",
+        "text": "Awww Ronaldo so cute and fair play helping Cavani",
+        "likes": 0,
+        "retweets": 1766,
+        "engagement": 1766,
+        "emotion": "Neutral",
+        "selection_method": "editorial_override",
+        "translation_es": "Qué gran gesto de Ronaldo al ayudar a Cavani a abandonar el campo."
+      },
+      {
+        "type": "key_moment",
+        "label": "⚽ Reacción destacada",
+        "text": "Neither Cristiano Ronaldo nor Lionel Messi have scored a goal in a World Cup knockout match",
+        "likes": 0,
+        "retweets": 1718,
+        "engagement": 1718,
+        "emotion": "Tensión",
+        "selection_method": "editorial_override",
+        "translation_es": "Ni Cristiano Ronaldo ni Lionel Messi lograron marcar un gol en las fases eliminatorias de un Mundial."
+      }
+    ],
+    "key_event": {
+      "minute": 62,
+      "event": "Cavani marca nuevamente y define el partido",
+      "importance": 10
+    },
+    "time_window_used": false,
+    "window_start": "2018-06-30T18:30:00",
+    "window_end": "2018-06-30T21:45:00",
+    "editorial_status": "curated"
+  },
+  "radiography": {
+    "match": "Uruguay vs Portugal",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Uruguay 2–1 Portugal",
+        "detail": "Ganador: Uruguay"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "1.788",
+        "detail": "Sin cobertura temporal"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Portugal 64,4%",
+        "detail": "Diferencia de 28,8 puntos"
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Cristiano Ronaldo",
+        "detail": "920 menciones"
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Euforia",
+        "detail": "56,4% de las señales emocionales"
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Sin cobertura temporal",
+        "detail": ""
+      }
+    ],
+    "final_sentence": "Portugal dominó la conversación; Cristiano Ronaldo fue el nombre propio y Uruguay se quedó con el resultado."
+  },
+  "data_quality": {
+    "level": "text_only",
+    "label": "Análisis social sin línea temporal",
+    "message": "Existen suficientes tuits para analizar la conversación, pero no para reconstruir su evolución minuto a minuto.",
+    "show_social_analysis": true,
+    "show_momentum": false,
+    "show_featured_tweets": true,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 21
+    },
+    "featured_tweets_review": "curated",
+    "warning": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  }
+}

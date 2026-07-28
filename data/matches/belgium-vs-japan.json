@@ -1,0 +1,631 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "belgium-vs-japan",
+  "match": "Belgium vs Japan",
+  "hero": {
+    "match": "Belgium vs Japan",
+    "stage": {
+      "key": "round_of_16",
+      "label": "Octavos de final"
+    },
+    "date": {
+      "iso": "2018-07-02",
+      "display": "2 de julio de 2018"
+    },
+    "team1": {
+      "name": "Belgium",
+      "score": 3,
+      "flag_key": "Belgium"
+    },
+    "team2": {
+      "name": "Japan",
+      "score": 2,
+      "flag_key": "Japan"
+    },
+    "score": "3 - 2",
+    "result_text": "Belgium 3-2 Japan",
+    "winner": "Belgium",
+    "tweet_count": 58,
+    "raw_tweet_count": 279,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 21
+    },
+    "has_extra_time": false,
+    "has_shootout": false
+  },
+  "story": {
+    "match": "Belgium vs Japan",
+    "preview": {
+      "title": "La previa",
+      "text": "Bélgica y Japón se encontraron en octavos de final del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 58 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "Bélgica concentró el 53,2% de las menciones y se convirtió en el principal foco de atención de Twitter. La conversación estuvo atravesada por la incertidumbre, los nervios y la sensación de que el partido podía cambiar en cualquier momento. Tensión representó el 53,8% de los tuits con señales emocionales. En ese escenario, Romelu Lukaku emergió como el protagonista más mencionado, con 3 apariciones."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 94: Chadli completa la remontada en la última jugada. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 3 - 2 y Bélgica se quedó con la victoria. Bélgica dominó tanto la atención de Twitter como el desenlace del partido."
+    },
+    "coverage_note": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "Belgium vs Japan",
+      "team1": "Belgium",
+      "team2": "Japan",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        }
+      ],
+      "display_end": 100,
+      "has_extra_time": false,
+      "has_shootout": false,
+      "events": [
+        {
+          "minute": 48,
+          "event": "Haraguchi pone en ventaja a Japón",
+          "importance": 7
+        },
+        {
+          "minute": 52,
+          "event": "Inui amplía la ventaja japonesa",
+          "importance": 8
+        },
+        {
+          "minute": 69,
+          "event": "Vertonghen inicia la remontada de Bélgica",
+          "importance": 7
+        },
+        {
+          "minute": 74,
+          "event": "Fellaini empata el partido",
+          "importance": 8
+        },
+        {
+          "minute": 94,
+          "event": "Chadli completa la remontada en la última jugada",
+          "importance": 10
+        }
+      ],
+      "shootout": []
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": true,
+    "match": "Belgium vs Japan",
+    "team1": {
+      "name": "Belgium",
+      "mentions": 42,
+      "percentage": 53.2
+    },
+    "team2": {
+      "name": "Japan",
+      "mentions": 37,
+      "percentage": 46.8
+    },
+    "total_mentions": 79,
+    "dominant_team": "Belgium",
+    "difference": 6.4,
+    "interpretation": "Belgium dominó la conversación con el 53.2% de las menciones, una diferencia de 6.4 puntos porcentuales respecto de Japan."
+  },
+  "emotional_climate": {
+    "available": true,
+    "match": "Belgium vs Japan",
+    "overall": {
+      "total_tweets": 58,
+      "classified_tweets": 13,
+      "neutral_tweets": 45,
+      "classification_rate": 22.4,
+      "counts": {
+        "Euforia": 6,
+        "Tensión": 7,
+        "Conflicto": 0,
+        "Tristeza": 0
+      },
+      "percentages": {
+        "Euforia": 46.2,
+        "Tensión": 53.8,
+        "Conflicto": 0.0,
+        "Tristeza": 0.0
+      },
+      "predominant_emotion": "Tensión"
+    },
+    "team1": {
+      "name": "Belgium",
+      "summary": {
+        "total_tweets": 42,
+        "classified_tweets": 7,
+        "neutral_tweets": 35,
+        "classification_rate": 16.7,
+        "counts": {
+          "Euforia": 6,
+          "Tensión": 1,
+          "Conflicto": 0,
+          "Tristeza": 0
+        },
+        "percentages": {
+          "Euforia": 85.7,
+          "Tensión": 14.3,
+          "Conflicto": 0.0,
+          "Tristeza": 0.0
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "team2": {
+      "name": "Japan",
+      "summary": {
+        "total_tweets": 37,
+        "classified_tweets": 8,
+        "neutral_tweets": 29,
+        "classification_rate": 21.6,
+        "counts": {
+          "Euforia": 1,
+          "Tensión": 7,
+          "Conflicto": 0,
+          "Tristeza": 0
+        },
+        "percentages": {
+          "Euforia": 12.5,
+          "Tensión": 87.5,
+          "Conflicto": 0.0,
+          "Tristeza": 0.0
+        },
+        "predominant_emotion": "Tensión"
+      }
+    },
+    "sampled": false,
+    "sample_size": 58,
+    "interpretation": "Tensión fue la emoción predominante del partido, con el 53.8% de los tuits que contenían señales emocionales."
+  },
+  "protagonists": {
+    "available": true,
+    "match": "Belgium vs Japan",
+    "ranking": [
+      {
+        "rank": 1,
+        "player": "Romelu Lukaku",
+        "team": "Belgium",
+        "mentions": 3,
+        "share": 42.9,
+        "engagement": 46
+      },
+      {
+        "rank": 2,
+        "player": "Takashi Inui",
+        "team": "Japan",
+        "mentions": 1,
+        "share": 14.3,
+        "engagement": 957
+      },
+      {
+        "rank": 3,
+        "player": "Marouane Fellaini",
+        "team": "Belgium",
+        "mentions": 1,
+        "share": 14.3,
+        "engagement": 2
+      },
+      {
+        "rank": 4,
+        "player": "Eden Hazard",
+        "team": "Belgium",
+        "mentions": 1,
+        "share": 14.3,
+        "engagement": 0
+      },
+      {
+        "rank": 5,
+        "player": "Shinji Kagawa",
+        "team": "Japan",
+        "mentions": 1,
+        "share": 14.3,
+        "engagement": 0
+      }
+    ],
+    "total_player_mentions": 7,
+    "top_player": {
+      "rank": 1,
+      "player": "Romelu Lukaku",
+      "team": "Belgium",
+      "mentions": 3,
+      "share": 42.9,
+      "engagement": 46
+    },
+    "interpretation": "Romelu Lukaku fue el jugador más mencionado del partido, con 3 apariciones en la conversación analizada."
+  },
+  "featured_tweets": {
+    "available": false,
+    "match": "Belgium vs Japan",
+    "tweets": [],
+    "key_event": {
+      "minute": 94,
+      "event": "Chadli completa la remontada en la última jugada",
+      "importance": 10
+    },
+    "time_window_used": false,
+    "window_start": "2018-07-02T18:30:00",
+    "window_end": "2018-07-02T21:45:00",
+    "editorial_status": "hidden_due_to_limited_sample"
+  },
+  "radiography": {
+    "match": "Belgium vs Japan",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Bélgica 3–2 Japón",
+        "detail": "Ganador: Bélgica"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "58",
+        "detail": "Sin cobertura temporal"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Bélgica 53,2%",
+        "detail": "Diferencia de 6,4 puntos"
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Romelu Lukaku",
+        "detail": "3 menciones"
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Tensión",
+        "detail": "53,8% de las señales emocionales"
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Sin cobertura temporal",
+        "detail": ""
+      }
+    ],
+    "final_sentence": "Bélgica dominó la conversación; Romelu Lukaku fue el nombre propio y Bélgica se quedó con el resultado."
+  },
+  "data_quality": {
+    "level": "limited_text",
+    "label": "Muestra social limitada",
+    "message": "Existen tuits relacionados con el partido, pero la muestra es pequeña y no cubre su desarrollo temporal.",
+    "show_social_analysis": true,
+    "show_momentum": false,
+    "show_featured_tweets": false,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 21
+    },
+    "featured_tweets_review": "hidden_due_to_limited_sample",
+    "warning": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  }
+}

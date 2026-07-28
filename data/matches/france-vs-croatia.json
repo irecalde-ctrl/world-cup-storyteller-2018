@@ -1,0 +1,670 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "france-vs-croatia",
+  "match": "France vs Croatia",
+  "hero": {
+    "match": "France vs Croatia",
+    "stage": {
+      "key": "final",
+      "label": "Final"
+    },
+    "date": {
+      "iso": "2018-07-15",
+      "display": "15 de julio de 2018"
+    },
+    "team1": {
+      "name": "France",
+      "score": 4,
+      "flag_key": "France"
+    },
+    "team2": {
+      "name": "Croatia",
+      "score": 2,
+      "flag_key": "Croatia"
+    },
+    "score": "4 - 2",
+    "result_text": "France 4-2 Croatia",
+    "winner": "France",
+    "tweet_count": 6275,
+    "raw_tweet_count": 68868,
+    "coverage": {
+      "status": "partial",
+      "label": "Cobertura temporal parcial",
+      "percentage": 9.5,
+      "covered_intervals": 2,
+      "total_intervals": 21
+    },
+    "has_extra_time": false,
+    "has_shootout": false
+  },
+  "story": {
+    "match": "France vs Croatia",
+    "preview": {
+      "title": "La previa",
+      "text": "Francia y Croacia se encontraron en final del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 6.275 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "Francia concentró el 63,9% de las menciones y se convirtió en el principal foco de atención de Twitter. La celebración, el asombro y la ilusión marcaron el tono dominante de la conversación. Euforia representó el 88,4% de los tuits con señales emocionales. En ese escenario, Luka Modrić emergió como el protagonista más mencionado, con 636 apariciones."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 59: Pogba marca el 3-1 y cambia definitivamente el rumbo de la final. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 4 - 2 y Francia se quedó con la victoria. Francia dominó tanto la atención de Twitter como el desenlace del partido."
+    },
+    "coverage_note": "Cobertura temporal parcial: el dataset contiene registros en el 9,5% de los intervalos. La historia evita atribuir reacciones a minutos sin datos."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "France vs Croatia",
+      "team1": "France",
+      "team2": "Croatia",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        }
+      ],
+      "display_end": 100,
+      "has_extra_time": false,
+      "has_shootout": false,
+      "events": [
+        {
+          "minute": 18,
+          "event": "Mandžukić marca en contra y Francia se adelanta",
+          "importance": 5
+        },
+        {
+          "minute": 28,
+          "event": "Perišić empata para Croacia",
+          "importance": 8
+        },
+        {
+          "minute": 38,
+          "event": "Griezmann convierte de penal y devuelve la ventaja a Francia",
+          "importance": 9
+        },
+        {
+          "minute": 59,
+          "event": "Pogba marca el 3-1 y cambia definitivamente el rumbo de la final",
+          "importance": 10
+        },
+        {
+          "minute": 65,
+          "event": "Mbappé marca el cuarto gol francés",
+          "importance": 9
+        },
+        {
+          "minute": 69,
+          "event": "Mandžukić descuenta tras un error de Lloris",
+          "importance": 3
+        }
+      ],
+      "shootout": []
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": 7414.0,
+        "team2_mentions": 1593.0,
+        "team2_plot": -1593.0,
+        "has_coverage": true
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": 9138.0,
+        "team2_mentions": 1978.0,
+        "team2_plot": -1978.0,
+        "has_coverage": true
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": true,
+    "match": "France vs Croatia",
+    "team1": {
+      "name": "France",
+      "mentions": 4630,
+      "percentage": 63.9
+    },
+    "team2": {
+      "name": "Croatia",
+      "mentions": 2620,
+      "percentage": 36.1
+    },
+    "total_mentions": 7250,
+    "dominant_team": "France",
+    "difference": 27.8,
+    "interpretation": "France dominó la conversación con el 63.9% de las menciones, una diferencia de 27.8 puntos porcentuales respecto de Croatia."
+  },
+  "emotional_climate": {
+    "available": true,
+    "match": "France vs Croatia",
+    "overall": {
+      "total_tweets": 6275,
+      "classified_tweets": 3851,
+      "neutral_tweets": 2424,
+      "classification_rate": 61.4,
+      "counts": {
+        "Euforia": 3402,
+        "Tensión": 98,
+        "Conflicto": 111,
+        "Tristeza": 240
+      },
+      "percentages": {
+        "Euforia": 88.4,
+        "Tensión": 2.5,
+        "Conflicto": 2.9,
+        "Tristeza": 6.2
+      },
+      "predominant_emotion": "Euforia"
+    },
+    "team1": {
+      "name": "France",
+      "summary": {
+        "total_tweets": 4630,
+        "classified_tweets": 3053,
+        "neutral_tweets": 1577,
+        "classification_rate": 65.9,
+        "counts": {
+          "Euforia": 2788,
+          "Tensión": 67,
+          "Conflicto": 78,
+          "Tristeza": 120
+        },
+        "percentages": {
+          "Euforia": 91.3,
+          "Tensión": 2.2,
+          "Conflicto": 2.6,
+          "Tristeza": 3.9
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "team2": {
+      "name": "Croatia",
+      "summary": {
+        "total_tweets": 2620,
+        "classified_tweets": 1462,
+        "neutral_tweets": 1158,
+        "classification_rate": 55.8,
+        "counts": {
+          "Euforia": 1220,
+          "Tensión": 40,
+          "Conflicto": 48,
+          "Tristeza": 154
+        },
+        "percentages": {
+          "Euforia": 83.5,
+          "Tensión": 2.7,
+          "Conflicto": 3.3,
+          "Tristeza": 10.5
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "sampled": false,
+    "sample_size": 6275,
+    "interpretation": "Euforia fue la emoción predominante del partido, con el 88.4% de los tuits que contenían señales emocionales."
+  },
+  "protagonists": {
+    "available": true,
+    "match": "France vs Croatia",
+    "ranking": [
+      {
+        "rank": 1,
+        "player": "Luka Modrić",
+        "team": "Croatia",
+        "mentions": 636,
+        "share": 35.8,
+        "engagement": 15510
+      },
+      {
+        "rank": 2,
+        "player": "Kylian Mbappé",
+        "team": "France",
+        "mentions": 582,
+        "share": 32.8,
+        "engagement": 37327
+      },
+      {
+        "rank": 3,
+        "player": "Paul Pogba",
+        "team": "France",
+        "mentions": 141,
+        "share": 7.9,
+        "engagement": 5181
+      },
+      {
+        "rank": 4,
+        "player": "Antoine Griezmann",
+        "team": "France",
+        "mentions": 133,
+        "share": 7.5,
+        "engagement": 6433
+      },
+      {
+        "rank": 5,
+        "player": "N'Golo Kanté",
+        "team": "France",
+        "mentions": 55,
+        "share": 3.1,
+        "engagement": 2109
+      }
+    ],
+    "total_player_mentions": 1776,
+    "top_player": {
+      "rank": 1,
+      "player": "Luka Modrić",
+      "team": "Croatia",
+      "mentions": 636,
+      "share": 35.8,
+      "engagement": 15510
+    },
+    "interpretation": "Luka Modrić fue el jugador más mencionado del partido, con 636 apariciones en la conversación analizada."
+  },
+  "featured_tweets": {
+    "available": true,
+    "match": "France vs Croatia",
+    "tweets": [
+      {
+        "type": "most_viral",
+        "label": "🔥 Tweet más viral",
+        "text": "FIFA Young Player Award: Kylian Mbappe",
+        "likes": 0,
+        "retweets": 14832,
+        "engagement": 14832,
+        "emotion": "Euforia",
+        "selection_method": "editorial_override",
+        "translation_es": "Premio al mejor jugador joven del Mundial: Kylian Mbappé."
+      },
+      {
+        "type": "representative",
+        "label": "💬 La emoción del partido",
+        "text": "Luka Modric is the player of the tournament, and that is absolutely deserved",
+        "likes": 0,
+        "retweets": 866,
+        "engagement": 866,
+        "emotion": "Euforia",
+        "selection_method": "editorial_override",
+        "translation_es": "Luka Modrić es el mejor jugador del torneo. Un reconocimiento absolutamente merecido."
+      },
+      {
+        "type": "key_moment",
+        "label": "⚽ Reacción al desenlace",
+        "text": "France overpower Croatia to lift the trophy for the second time in their history",
+        "likes": 378,
+        "retweets": 142,
+        "engagement": 520,
+        "emotion": "Euforia",
+        "selection_method": "editorial_override",
+        "translation_es": "Francia supera a Croacia y levanta la Copa del Mundo por segunda vez en su historia."
+      }
+    ],
+    "key_event": {
+      "minute": 59,
+      "event": "Pogba marca el 3-1 y cambia definitivamente el rumbo de la final",
+      "importance": 10
+    },
+    "time_window_used": true,
+    "window_start": "2018-07-15T15:30:00",
+    "window_end": "2018-07-15T18:45:00",
+    "editorial_status": "curated"
+  },
+  "radiography": {
+    "match": "France vs Croatia",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Francia 4–2 Croacia",
+        "detail": "Ganador: Francia"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "6.275",
+        "detail": "Cobertura temporal parcial"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Francia 63,9%",
+        "detail": "Diferencia de 27,8 puntos"
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Luka Modrić",
+        "detail": "636 menciones"
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Euforia",
+        "detail": "88,4% de las señales emocionales"
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Segundo Tiempo · 85′–90′",
+        "detail": "11.116 menciones combinadas"
+      }
+    ],
+    "final_sentence": "Francia dominó la conversación; Luka Modrić fue el nombre propio y Francia se quedó con el resultado."
+  },
+  "data_quality": {
+    "level": "partial_timeline",
+    "label": "Cobertura temporal parcial",
+    "message": "El dataset permite reconstruir solamente algunos tramos de la conversación.",
+    "show_social_analysis": true,
+    "show_momentum": true,
+    "show_featured_tweets": true,
+    "coverage": {
+      "status": "partial",
+      "label": "Cobertura temporal parcial",
+      "percentage": 9.5,
+      "covered_intervals": 2,
+      "total_intervals": 21
+    },
+    "featured_tweets_review": "curated",
+    "warning": "Cobertura temporal parcial: el dataset contiene registros en el 9,5% de los intervalos. La historia evita atribuir reacciones a minutos sin datos."
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "schema_version": "2.0",
+  "status": "ready",
+  "slug": "brazil-vs-mexico",
+  "match": "Brazil vs Mexico",
+  "hero": {
+    "match": "Brazil vs Mexico",
+    "stage": {
+      "key": "round_of_16",
+      "label": "Octavos de final"
+    },
+    "date": {
+      "iso": "2018-07-02",
+      "display": "2 de julio de 2018"
+    },
+    "team1": {
+      "name": "Brazil",
+      "score": 2,
+      "flag_key": "Brazil"
+    },
+    "team2": {
+      "name": "Mexico",
+      "score": 0,
+      "flag_key": "Mexico"
+    },
+    "score": "2 - 0",
+    "result_text": "Brazil 2-0 Mexico",
+    "winner": "Brazil",
+    "tweet_count": 139,
+    "raw_tweet_count": 436,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 21
+    },
+    "has_extra_time": false,
+    "has_shootout": false
+  },
+  "story": {
+    "match": "Brazil vs Mexico",
+    "preview": {
+      "title": "La previa",
+      "text": "Brasil y México se encontraron en octavos de final del Mundial de Rusia 2018. El encuentro dejó una huella social formada por 139 tuits limpios, una muestra de las reacciones, expectativas y discusiones que acompañaron al partido."
+    },
+    "social_climate": {
+      "title": "El clima social",
+      "text": "Brasil concentró el 51,1% de las menciones y se convirtió en el principal foco de atención de Twitter. La celebración, el asombro y la ilusión marcaron el tono dominante de la conversación. Euforia representó el 61,3% de los tuits con señales emocionales. En ese escenario, Neymar emergió como el protagonista más mencionado, con 14 apariciones."
+    },
+    "turning_point": {
+      "title": "El punto de quiebre",
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 51: Neymar abre el marcador para Brasil. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+    },
+    "outcome": {
+      "title": "El desenlace",
+      "text": "El partido terminó 2 - 0 y Brasil se quedó con la victoria. Brasil dominó tanto la atención de Twitter como el desenlace del partido."
+    },
+    "coverage_note": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  },
+  "momentum": {
+    "interval_minutes": 5,
+    "metadata": {
+      "match": "Brazil vs Mexico",
+      "team1": "Brazil",
+      "team2": "Mexico",
+      "interval_minutes": 5,
+      "periods": [
+        {
+          "key": "first_half",
+          "label": "PRIMER TIEMPO",
+          "type": "play",
+          "football_start": 0,
+          "football_end": 45,
+          "display_width": 45,
+          "display_start": 0,
+          "display_end": 45,
+          "real_start": 0,
+          "real_end": 45
+        },
+        {
+          "key": "halftime",
+          "label": "ENTRETIEMPO",
+          "type": "break",
+          "football_start": null,
+          "football_end": null,
+          "display_width": 10,
+          "display_start": 45,
+          "display_end": 55,
+          "real_start": 45,
+          "real_end": 60
+        },
+        {
+          "key": "second_half",
+          "label": "SEGUNDO TIEMPO",
+          "type": "play",
+          "football_start": 45,
+          "football_end": 90,
+          "display_width": 45,
+          "display_start": 55,
+          "display_end": 100,
+          "real_start": 60,
+          "real_end": 105
+        }
+      ],
+      "display_end": 100,
+      "has_extra_time": false,
+      "has_shootout": false,
+      "events": [
+        {
+          "minute": 51,
+          "event": "Neymar abre el marcador para Brasil",
+          "importance": 10
+        },
+        {
+          "minute": 88,
+          "event": "Firmino liquida el encuentro",
+          "importance": 6
+        }
+      ],
+      "shootout": []
+    },
+    "series": [
+      {
+        "minute": 2.5,
+        "display_start": 0.0,
+        "display_end": 5.0,
+        "elapsed_start": 0,
+        "elapsed_end": 5,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 0′–5′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 7.5,
+        "display_start": 5.0,
+        "display_end": 10.0,
+        "elapsed_start": 5,
+        "elapsed_end": 10,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 5′–10′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 12.5,
+        "display_start": 10.0,
+        "display_end": 15.0,
+        "elapsed_start": 10,
+        "elapsed_end": 15,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 10′–15′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 17.5,
+        "display_start": 15.0,
+        "display_end": 20.0,
+        "elapsed_start": 15,
+        "elapsed_end": 20,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 15′–20′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 22.5,
+        "display_start": 20.0,
+        "display_end": 25.0,
+        "elapsed_start": 20,
+        "elapsed_end": 25,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 20′–25′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 27.5,
+        "display_start": 25.0,
+        "display_end": 30.0,
+        "elapsed_start": 25,
+        "elapsed_end": 30,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 25′–30′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 32.5,
+        "display_start": 30.0,
+        "display_end": 35.0,
+        "elapsed_start": 30,
+        "elapsed_end": 35,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 30′–35′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 37.5,
+        "display_start": 35.0,
+        "display_end": 40.0,
+        "elapsed_start": 35,
+        "elapsed_end": 40,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 35′–40′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 42.5,
+        "display_start": 40.0,
+        "display_end": 45.0,
+        "elapsed_start": 40,
+        "elapsed_end": 45,
+        "period_key": "first_half",
+        "period_label": "Primer Tiempo · 40′–45′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 46.66666666666667,
+        "display_start": 45.0,
+        "display_end": 48.333333333333336,
+        "elapsed_start": 45,
+        "elapsed_end": 50,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 50.0,
+        "display_start": 48.333333333333336,
+        "display_end": 51.666666666666664,
+        "elapsed_start": 50,
+        "elapsed_end": 55,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 53.33333333333333,
+        "display_start": 51.666666666666664,
+        "display_end": 55.0,
+        "elapsed_start": 55,
+        "elapsed_end": 60,
+        "period_key": "halftime",
+        "period_label": "Entretiempo",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 57.5,
+        "display_start": 55.0,
+        "display_end": 60.0,
+        "elapsed_start": 60,
+        "elapsed_end": 65,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 45′–50′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 62.5,
+        "display_start": 60.0,
+        "display_end": 65.0,
+        "elapsed_start": 65,
+        "elapsed_end": 70,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 50′–55′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 67.5,
+        "display_start": 65.0,
+        "display_end": 70.0,
+        "elapsed_start": 70,
+        "elapsed_end": 75,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 55′–60′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 72.5,
+        "display_start": 70.0,
+        "display_end": 75.0,
+        "elapsed_start": 75,
+        "elapsed_end": 80,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 60′–65′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 77.5,
+        "display_start": 75.0,
+        "display_end": 80.0,
+        "elapsed_start": 80,
+        "elapsed_end": 85,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 65′–70′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 82.5,
+        "display_start": 80.0,
+        "display_end": 85.0,
+        "elapsed_start": 85,
+        "elapsed_end": 90,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 70′–75′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 87.5,
+        "display_start": 85.0,
+        "display_end": 90.0,
+        "elapsed_start": 90,
+        "elapsed_end": 95,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 75′–80′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 92.5,
+        "display_start": 90.0,
+        "display_end": 95.0,
+        "elapsed_start": 95,
+        "elapsed_end": 100,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 80′–85′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      },
+      {
+        "minute": 97.5,
+        "display_start": 95.0,
+        "display_end": 100.0,
+        "elapsed_start": 100,
+        "elapsed_end": 105,
+        "period_key": "second_half",
+        "period_label": "Segundo Tiempo · 85′–90′",
+        "team1_mentions": null,
+        "team2_mentions": null,
+        "team2_plot": null,
+        "has_coverage": false
+      }
+    ]
+  },
+  "share_of_voice": {
+    "available": true,
+    "match": "Brazil vs Mexico",
+    "team1": {
+      "name": "Brazil",
+      "mentions": 94,
+      "percentage": 51.1
+    },
+    "team2": {
+      "name": "Mexico",
+      "mentions": 90,
+      "percentage": 48.9
+    },
+    "total_mentions": 184,
+    "dominant_team": "Brazil",
+    "difference": 2.2,
+    "interpretation": "Brazil dominó la conversación con el 51.1% de las menciones, una diferencia de 2.2 puntos porcentuales respecto de Mexico."
+  },
+  "emotional_climate": {
+    "available": true,
+    "match": "Brazil vs Mexico",
+    "overall": {
+      "total_tweets": 139,
+      "classified_tweets": 31,
+      "neutral_tweets": 108,
+      "classification_rate": 22.3,
+      "counts": {
+        "Euforia": 19,
+        "Tensión": 5,
+        "Conflicto": 0,
+        "Tristeza": 7
+      },
+      "percentages": {
+        "Euforia": 61.3,
+        "Tensión": 16.1,
+        "Conflicto": 0.0,
+        "Tristeza": 22.6
+      },
+      "predominant_emotion": "Euforia"
+    },
+    "team1": {
+      "name": "Brazil",
+      "summary": {
+        "total_tweets": 94,
+        "classified_tweets": 19,
+        "neutral_tweets": 75,
+        "classification_rate": 20.2,
+        "counts": {
+          "Euforia": 10,
+          "Tensión": 4,
+          "Conflicto": 0,
+          "Tristeza": 5
+        },
+        "percentages": {
+          "Euforia": 52.6,
+          "Tensión": 21.1,
+          "Conflicto": 0.0,
+          "Tristeza": 26.3
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "team2": {
+      "name": "Mexico",
+      "summary": {
+        "total_tweets": 90,
+        "classified_tweets": 17,
+        "neutral_tweets": 73,
+        "classification_rate": 18.9,
+        "counts": {
+          "Euforia": 11,
+          "Tensión": 3,
+          "Conflicto": 0,
+          "Tristeza": 3
+        },
+        "percentages": {
+          "Euforia": 64.8,
+          "Tensión": 17.6,
+          "Conflicto": 0.0,
+          "Tristeza": 17.6
+        },
+        "predominant_emotion": "Euforia"
+      }
+    },
+    "sampled": false,
+    "sample_size": 139,
+    "interpretation": "Euforia fue la emoción predominante del partido, con el 61.3% de los tuits que contenían señales emocionales."
+  },
+  "protagonists": {
+    "available": true,
+    "match": "Brazil vs Mexico",
+    "ranking": [
+      {
+        "rank": 1,
+        "player": "Neymar",
+        "team": "Brazil",
+        "mentions": 14,
+        "share": 58.3,
+        "engagement": 1758
+      },
+      {
+        "rank": 2,
+        "player": "Javier Hernández",
+        "team": "Mexico",
+        "mentions": 6,
+        "share": 25.0,
+        "engagement": 32
+      },
+      {
+        "rank": 3,
+        "player": "Miguel Layún",
+        "team": "Mexico",
+        "mentions": 2,
+        "share": 8.3,
+        "engagement": 16
+      },
+      {
+        "rank": 4,
+        "player": "Marcelo",
+        "team": "Brazil",
+        "mentions": 1,
+        "share": 4.2,
+        "engagement": 85
+      },
+      {
+        "rank": 5,
+        "player": "Philippe Coutinho",
+        "team": "Brazil",
+        "mentions": 1,
+        "share": 4.2,
+        "engagement": 0
+      }
+    ],
+    "total_player_mentions": 24,
+    "top_player": {
+      "rank": 1,
+      "player": "Neymar",
+      "team": "Brazil",
+      "mentions": 14,
+      "share": 58.3,
+      "engagement": 1758
+    },
+    "interpretation": "Neymar fue el jugador más mencionado del partido, con 14 apariciones en la conversación analizada."
+  },
+  "featured_tweets": {
+    "available": false,
+    "match": "Brazil vs Mexico",
+    "tweets": [],
+    "key_event": {
+      "minute": 51,
+      "event": "Neymar abre el marcador para Brasil",
+      "importance": 10
+    },
+    "time_window_used": false,
+    "window_start": "2018-07-02T14:30:00",
+    "window_end": "2018-07-02T17:45:00",
+    "editorial_status": "hidden_due_to_limited_sample"
+  },
+  "radiography": {
+    "match": "Brazil vs Mexico",
+    "cards": [
+      {
+        "key": "result",
+        "label": "Resultado",
+        "value": "Brasil 2–0 México",
+        "detail": "Ganador: Brasil"
+      },
+      {
+        "key": "tweets",
+        "label": "Tweets analizados",
+        "value": "139",
+        "detail": "Sin cobertura temporal"
+      },
+      {
+        "key": "conversation",
+        "label": "Dominio de la conversación",
+        "value": "Brasil 51,1%",
+        "detail": "Diferencia de 2,2 puntos"
+      },
+      {
+        "key": "protagonist",
+        "label": "Protagonista",
+        "value": "Neymar",
+        "detail": "14 menciones"
+      },
+      {
+        "key": "emotion",
+        "label": "Emoción predominante",
+        "value": "Euforia",
+        "detail": "61,3% de las señales emocionales"
+      },
+      {
+        "key": "peak",
+        "label": "Pico de actividad",
+        "value": "Sin cobertura temporal",
+        "detail": ""
+      }
+    ],
+    "final_sentence": "Brasil dominó la conversación; Neymar fue el nombre propio y Brasil se quedó con el resultado."
+  },
+  "data_quality": {
+    "level": "limited_text",
+    "label": "Muestra social limitada",
+    "message": "Existen tuits relacionados con el partido, pero la muestra es pequeña y no cubre su desarrollo temporal.",
+    "show_social_analysis": true,
+    "show_momentum": false,
+    "show_featured_tweets": false,
+    "coverage": {
+      "status": "none",
+      "label": "Sin cobertura temporal",
+      "percentage": 0.0,
+      "covered_intervals": 0,
+      "total_intervals": 21
+    },
+    "featured_tweets_review": "hidden_due_to_limited_sample",
+    "warning": "El dataset no contiene cobertura temporal del desarrollo del partido. La reconstrucción se apoya en la información histórica y en los registros sociales disponibles fuera de la línea temporal."
+  }
+}

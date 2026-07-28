@@ -1,0 +1,311 @@
+{
+  "schema_version": "2.0",
+  "generated_at": "2026-07-28T19:20:33",
+  "match_count": 16,
+  "matches": [
+    {
+      "match": "France vs Argentina",
+      "slug": "france-vs-argentina",
+      "status": "ready",
+      "stage": {
+        "key": "round_of_16",
+        "label": "Octavos de final"
+      },
+      "date": {
+        "iso": "2018-06-30",
+        "display": "30 de junio de 2018"
+      },
+      "team1": "France",
+      "team2": "Argentina",
+      "score": "4 - 3",
+      "winner": "France",
+      "data_quality": "partial_timeline",
+      "file": "matches/france-vs-argentina.json"
+    },
+    {
+      "match": "Uruguay vs Portugal",
+      "slug": "uruguay-vs-portugal",
+      "status": "ready",
+      "stage": {
+        "key": "round_of_16",
+        "label": "Octavos de final"
+      },
+      "date": {
+        "iso": "2018-06-30",
+        "display": "30 de junio de 2018"
+      },
+      "team1": "Uruguay",
+      "team2": "Portugal",
+      "score": "2 - 1",
+      "winner": "Uruguay",
+      "data_quality": "text_only",
+      "file": "matches/uruguay-vs-portugal.json"
+    },
+    {
+      "match": "Spain vs Russia",
+      "slug": "spain-vs-russia",
+      "status": "ready",
+      "stage": {
+        "key": "round_of_16",
+        "label": "Octavos de final"
+      },
+      "date": {
+        "iso": "2018-07-01",
+        "display": "1 de julio de 2018"
+      },
+      "team1": "Spain",
+      "team2": "Russia",
+      "score": "1 - 1",
+      "winner": "Russia",
+      "data_quality": "text_only",
+      "file": "matches/spain-vs-russia.json"
+    },
+    {
+      "match": "Croatia vs Denmark",
+      "slug": "croatia-vs-denmark",
+      "status": "ready",
+      "stage": {
+        "key": "round_of_16",
+        "label": "Octavos de final"
+      },
+      "date": {
+        "iso": "2018-07-01",
+        "display": "1 de julio de 2018"
+      },
+      "team1": "Croatia",
+      "team2": "Denmark",
+      "score": "1 - 1",
+      "winner": "Croatia",
+      "data_quality": "partial_timeline",
+      "file": "matches/croatia-vs-denmark.json"
+    },
+    {
+      "match": "Brazil vs Mexico",
+      "slug": "brazil-vs-mexico",
+      "status": "ready",
+      "stage": {
+        "key": "round_of_16",
+        "label": "Octavos de final"
+      },
+      "date": {
+        "iso": "2018-07-02",
+        "display": "2 de julio de 2018"
+      },
+      "team1": "Brazil",
+      "team2": "Mexico",
+      "score": "2 - 0",
+      "winner": "Brazil",
+      "data_quality": "limited_text",
+      "file": "matches/brazil-vs-mexico.json"
+    },
+    {
+      "match": "Belgium vs Japan",
+      "slug": "belgium-vs-japan",
+      "status": "ready",
+      "stage": {
+        "key": "round_of_16",
+        "label": "Octavos de final"
+      },
+      "date": {
+        "iso": "2018-07-02",
+        "display": "2 de julio de 2018"
+      },
+      "team1": "Belgium",
+      "team2": "Japan",
+      "score": "3 - 2",
+      "winner": "Belgium",
+      "data_quality": "limited_text",
+      "file": "matches/belgium-vs-japan.json"
+    },
+    {
+      "match": "Sweden vs Switzerland",
+      "slug": "sweden-vs-switzerland",
+      "status": "ready",
+      "stage": {
+        "key": "round_of_16",
+        "label": "Octavos de final"
+      },
+      "date": {
+        "iso": "2018-07-03",
+        "display": "3 de julio de 2018"
+      },
+      "team1": "Sweden",
+      "team2": "Switzerland",
+      "score": "1 - 0",
+      "winner": "Sweden",
+      "data_quality": "limited_text",
+      "file": "matches/sweden-vs-switzerland.json"
+    },
+    {
+      "match": "Colombia vs England",
+      "slug": "colombia-vs-england",
+      "status": "ready",
+      "stage": {
+        "key": "round_of_16",
+        "label": "Octavos de final"
+      },
+      "date": {
+        "iso": "2018-07-03",
+        "display": "3 de julio de 2018"
+      },
+      "team1": "Colombia",
+      "team2": "England",
+      "score": "1 - 1",
+      "winner": "England",
+      "data_quality": "text_only",
+      "file": "matches/colombia-vs-england.json"
+    },
+    {
+      "match": "Uruguay vs France",
+      "slug": "uruguay-vs-france",
+      "status": "ready",
+      "stage": {
+        "key": "quarterfinals",
+        "label": "Cuartos de final"
+      },
+      "date": {
+        "iso": "2018-07-06",
+        "display": "6 de julio de 2018"
+      },
+      "team1": "Uruguay",
+      "team2": "France",
+      "score": "0 - 2",
+      "winner": "France",
+      "data_quality": "unavailable",
+      "file": "matches/uruguay-vs-france.json"
+    },
+    {
+      "match": "Brazil vs Belgium",
+      "slug": "brazil-vs-belgium",
+      "status": "ready",
+      "stage": {
+        "key": "quarterfinals",
+        "label": "Cuartos de final"
+      },
+      "date": {
+        "iso": "2018-07-06",
+        "display": "6 de julio de 2018"
+      },
+      "team1": "Brazil",
+      "team2": "Belgium",
+      "score": "1 - 2",
+      "winner": "Belgium",
+      "data_quality": "unavailable",
+      "file": "matches/brazil-vs-belgium.json"
+    },
+    {
+      "match": "Russia vs Croatia",
+      "slug": "russia-vs-croatia",
+      "status": "ready",
+      "stage": {
+        "key": "quarterfinals",
+        "label": "Cuartos de final"
+      },
+      "date": {
+        "iso": "2018-07-07",
+        "display": "7 de julio de 2018"
+      },
+      "team1": "Russia",
+      "team2": "Croatia",
+      "score": "2 - 2",
+      "winner": "Croatia",
+      "data_quality": "unavailable",
+      "file": "matches/russia-vs-croatia.json"
+    },
+    {
+      "match": "Sweden vs England",
+      "slug": "sweden-vs-england",
+      "status": "ready",
+      "stage": {
+        "key": "quarterfinals",
+        "label": "Cuartos de final"
+      },
+      "date": {
+        "iso": "2018-07-07",
+        "display": "7 de julio de 2018"
+      },
+      "team1": "Sweden",
+      "team2": "England",
+      "score": "0 - 2",
+      "winner": "England",
+      "data_quality": "unavailable",
+      "file": "matches/sweden-vs-england.json"
+    },
+    {
+      "match": "France vs Belgium",
+      "slug": "france-vs-belgium",
+      "status": "ready",
+      "stage": {
+        "key": "semifinals",
+        "label": "Semifinal"
+      },
+      "date": {
+        "iso": "2018-07-10",
+        "display": "10 de julio de 2018"
+      },
+      "team1": "France",
+      "team2": "Belgium",
+      "score": "1 - 0",
+      "winner": "France",
+      "data_quality": "partial_timeline",
+      "file": "matches/france-vs-belgium.json"
+    },
+    {
+      "match": "Croatia vs England",
+      "slug": "croatia-vs-england",
+      "status": "ready",
+      "stage": {
+        "key": "semifinals",
+        "label": "Semifinal"
+      },
+      "date": {
+        "iso": "2018-07-11",
+        "display": "11 de julio de 2018"
+      },
+      "team1": "Croatia",
+      "team2": "England",
+      "score": "2 - 1",
+      "winner": "Croatia",
+      "data_quality": "partial_timeline",
+      "file": "matches/croatia-vs-england.json"
+    },
+    {
+      "match": "Belgium vs England (3rd Place)",
+      "slug": "belgium-vs-england-3rd-place",
+      "status": "ready",
+      "stage": {
+        "key": "third_place",
+        "label": "Tercer puesto"
+      },
+      "date": {
+        "iso": "2018-07-14",
+        "display": "14 de julio de 2018"
+      },
+      "team1": "Belgium",
+      "team2": "England",
+      "score": "2 - 0",
+      "winner": "Belgium",
+      "data_quality": "unavailable",
+      "file": "matches/belgium-vs-england-3rd-place.json"
+    },
+    {
+      "match": "France vs Croatia",
+      "slug": "france-vs-croatia",
+      "status": "ready",
+      "stage": {
+        "key": "final",
+        "label": "Final"
+      },
+      "date": {
+        "iso": "2018-07-15",
+        "display": "15 de julio de 2018"
+      },
+      "team1": "France",
+      "team2": "Croatia",
+      "score": "4 - 2",
+      "winner": "France",
+      "data_quality": "partial_timeline",
+      "file": "matches/france-vs-croatia.json"
+    }
+  ]
+}
