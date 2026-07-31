@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "belgium-vs-japan",
   "match": "Belgium vs Japan",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 94: Chadli completa la remontada en la última jugada. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 94: Nacer Chadli marca y pone en ventaja a Bélgica. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -109,28 +109,58 @@
       "events": [
         {
           "minute": 48,
-          "event": "Haraguchi pone en ventaja a Japón",
-          "importance": 7
+          "minute_label": "48",
+          "event": "Genki Haraguchi marca y pone en ventaja a Japón",
+          "importance": 7,
+          "team": "Japan",
+          "player": "Genki Haraguchi",
+          "event_type": "goal",
+          "score_after": "0-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 52,
-          "event": "Inui amplía la ventaja japonesa",
-          "importance": 8
+          "minute_label": "52",
+          "event": "Takashi Inui marca y amplía la ventaja de Japón",
+          "importance": 6,
+          "team": "Japan",
+          "player": "Takashi Inui",
+          "event_type": "goal",
+          "score_after": "0-2",
+          "source": "StatsBomb"
         },
         {
           "minute": 69,
-          "event": "Vertonghen inicia la remontada de Bélgica",
-          "importance": 7
+          "minute_label": "69",
+          "event": "Jan Vertonghen marca y descuenta para Bélgica",
+          "importance": 5,
+          "team": "Belgium",
+          "player": "Jan Vertonghen",
+          "event_type": "goal",
+          "score_after": "1-2",
+          "source": "StatsBomb"
         },
         {
           "minute": 74,
-          "event": "Fellaini empata el partido",
-          "importance": 8
+          "minute_label": "74",
+          "event": "Marouane Fellaini marca y empata para Bélgica",
+          "importance": 8,
+          "team": "Belgium",
+          "player": "Marouane Fellaini",
+          "event_type": "goal",
+          "score_after": "2-2",
+          "source": "StatsBomb"
         },
         {
           "minute": 94,
-          "event": "Chadli completa la remontada en la última jugada",
-          "importance": 10
+          "minute_label": "90+4",
+          "event": "Nacer Chadli marca y pone en ventaja a Bélgica",
+          "importance": 10,
+          "team": "Belgium",
+          "player": "Nacer Chadli",
+          "event_type": "goal",
+          "score_after": "3-2",
+          "source": "StatsBomb"
         }
       ],
       "shootout": []
@@ -429,6 +459,26 @@
     "difference": 6.4,
     "interpretation": "Belgium dominó la conversación con el 53.2% de las menciones, una diferencia de 6.4 puntos porcentuales respecto de Japan."
   },
+  "content_analysis": {
+    "available": false,
+    "match": "Belgium vs Japan",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 57,
+    "team1": {
+      "available": false,
+      "team": "Belgium",
+      "sample_size": 41,
+      "topics": []
+    },
+    "team2": {
+      "available": false,
+      "team": "Japan",
+      "sample_size": 38,
+      "topics": []
+    },
+    "interpretation": "No existe una cantidad suficiente de tuits por selección para reconstruir los temas de la conversación con criterios confiables."
+  },
   "emotional_climate": {
     "available": true,
     "match": "Belgium vs Japan",
@@ -561,7 +611,7 @@
     "tweets": [],
     "key_event": {
       "minute": 94,
-      "event": "Chadli completa la remontada en la última jugada",
+      "event": "Nacer Chadli marca y pone en ventaja a Bélgica",
       "importance": 10
     },
     "time_window_used": false,
@@ -618,6 +668,7 @@
     "show_social_analysis": true,
     "show_momentum": false,
     "show_featured_tweets": false,
+    "show_content_analysis": false,
     "coverage": {
       "status": "none",
       "label": "Sin cobertura temporal",

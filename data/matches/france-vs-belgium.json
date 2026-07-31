@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "france-vs-belgium",
   "match": "France vs Belgium",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 51: Umtiti marca el único gol y clasifica a Francia a la final. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 51: Samuel Umtiti marca y pone en ventaja a Francia. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -109,8 +109,14 @@
       "events": [
         {
           "minute": 51,
-          "event": "Umtiti marca el único gol y clasifica a Francia a la final",
-          "importance": 10
+          "minute_label": "51",
+          "event": "Samuel Umtiti marca y pone en ventaja a Francia",
+          "importance": 10,
+          "team": "France",
+          "player": "Samuel Umtiti",
+          "event_type": "goal",
+          "score_after": "1-0",
+          "source": "StatsBomb"
         }
       ],
       "shootout": []
@@ -409,6 +415,188 @@
     "difference": 3.6,
     "interpretation": "France dominó la conversación con el 51.8% de las menciones, una diferencia de 3.6 puntos porcentuales respecto de Belgium."
   },
+  "content_analysis": {
+    "available": true,
+    "match": "France vs Belgium",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 5356,
+    "team1": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "France",
+      "sample_size": 3780,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "semi",
+            "going",
+            "time",
+            "think",
+            "like",
+            "half"
+          ],
+          "prevalence": 69.6,
+          "representative_tweet": "Tomorrow semi final pm France vs Belgium",
+          "likes": 0,
+          "retweets": 157,
+          "terms_original": [
+            "semi",
+            "going",
+            "time",
+            "think",
+            "like",
+            "half"
+          ],
+          "terms_es": [
+            "semi",
+            "en marcha",
+            "hora",
+            "Piensa",
+            "como",
+            "mitad"
+          ],
+          "representative_tweet_original": "Tomorrow semi final pm France vs Belgium",
+          "representative_tweet_es": "Mañana: semifinal entre Francia y Bélgica.",
+          "terms_display_es": [
+            "semifinal",
+            "Francia",
+            "Bélgica"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "live",
+            "stream",
+            "live stream",
+            "free",
+            "stream free",
+            "hd"
+          ],
+          "prevalence": 30.4,
+          "representative_tweet": "Watch Now France vs Belgium Live Stream",
+          "likes": 0,
+          "retweets": 1,
+          "terms_original": [
+            "live",
+            "stream",
+            "live stream",
+            "free",
+            "stream free",
+            "hd"
+          ],
+          "terms_es": [
+            "vivo",
+            "corriente",
+            "corriente en vivo",
+            "libre",
+            "libre de flujo",
+            "hd"
+          ],
+          "representative_tweet_original": "Watch Now France vs Belgium Live Stream",
+          "representative_tweet_es": "Mirá ahora la transmisión en vivo de Francia vs. Bélgica.",
+          "terms_display_es": [
+            "transmisión en vivo",
+            "Francia",
+            "Bélgica"
+          ]
+        }
+      ]
+    },
+    "team2": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Belgium",
+      "sample_size": 3520,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "semi",
+            "time",
+            "half",
+            "going",
+            "like",
+            "think"
+          ],
+          "prevalence": 72.1,
+          "representative_tweet": "Tomorrow semi final pm France vs Belgium",
+          "likes": 0,
+          "retweets": 157,
+          "terms_original": [
+            "semi",
+            "time",
+            "half",
+            "going",
+            "like",
+            "think"
+          ],
+          "terms_es": [
+            "semi",
+            "hora",
+            "mitad",
+            "en marcha",
+            "como",
+            "Piensa"
+          ],
+          "representative_tweet_original": "Tomorrow semi final pm France vs Belgium",
+          "representative_tweet_es": "Mañana: semifinal entre Francia y Bélgica.",
+          "terms_display_es": [
+            "semifinal",
+            "Francia",
+            "Bélgica"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "live",
+            "stream",
+            "live stream",
+            "free",
+            "stream free",
+            "online"
+          ],
+          "prevalence": 27.9,
+          "representative_tweet": "Watch Now France vs Belgium Live Stream",
+          "likes": 0,
+          "retweets": 1,
+          "terms_original": [
+            "live",
+            "stream",
+            "live stream",
+            "free",
+            "stream free",
+            "online"
+          ],
+          "terms_es": [
+            "vivo",
+            "corriente",
+            "corriente en vivo",
+            "libre",
+            "libre de flujo",
+            "en línea"
+          ],
+          "representative_tweet_original": "Watch Now France vs Belgium Live Stream",
+          "representative_tweet_es": "Mirá ahora la transmisión en vivo de Francia vs. Bélgica.",
+          "terms_display_es": [
+            "transmisión en vivo",
+            "Francia",
+            "Bélgica"
+          ]
+        }
+      ]
+    },
+    "interpretation": "Los temas fueron identificados automáticamente a partir del contenido de los tuits mediante vectorización TF-IDF y modelado temático NMF.",
+    "translation": {
+      "available": true,
+      "language": "es",
+      "model": "Helsinki-NLP/opus-mt-en-es",
+      "method": "MarianMT + glosario futbolístico"
+    }
+  },
   "emotional_climate": {
     "available": true,
     "match": "France vs Belgium",
@@ -575,7 +763,7 @@
     ],
     "key_event": {
       "minute": 51,
-      "event": "Umtiti marca el único gol y clasifica a Francia a la final",
+      "event": "Samuel Umtiti marca y pone en ventaja a Francia",
       "importance": 10
     },
     "time_window_used": true,
@@ -632,6 +820,7 @@
     "show_social_analysis": true,
     "show_momentum": true,
     "show_featured_tweets": true,
+    "show_content_analysis": true,
     "coverage": {
       "status": "partial",
       "label": "Cobertura temporal parcial",

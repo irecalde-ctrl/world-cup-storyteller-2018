@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "croatia-vs-england",
   "match": "Croatia vs England",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 109: Mandžukić clasifica a Croacia a la final. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 109: Mario Mandžukić marca y pone en ventaja a Croacia. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -157,18 +157,36 @@
       "events": [
         {
           "minute": 5,
-          "event": "Trippier adelanta a Inglaterra de tiro libre",
-          "importance": 7
+          "minute_label": "5",
+          "event": "Kieran Trippier marca y pone en ventaja a Inglaterra",
+          "importance": 7,
+          "team": "England",
+          "player": "Kieran Trippier",
+          "event_type": "goal",
+          "score_after": "0-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 68,
-          "event": "Perišić empata para Croacia",
-          "importance": 9
+          "minute_label": "68",
+          "event": "Ivan Perišić marca y empata para Croacia",
+          "importance": 8,
+          "team": "Croatia",
+          "player": "Ivan Perišić",
+          "event_type": "goal",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 109,
-          "event": "Mandžukić clasifica a Croacia a la final",
-          "importance": 10
+          "minute_label": "109",
+          "event": "Mario Mandžukić marca y pone en ventaja a Croacia",
+          "importance": 10,
+          "team": "Croatia",
+          "player": "Mario Mandžukić",
+          "event_type": "goal",
+          "score_after": "2-1",
+          "source": "StatsBomb"
         }
       ],
       "shootout": []
@@ -571,6 +589,188 @@
     "difference": 11.0,
     "interpretation": "England dominó la conversación con el 55.5% de las menciones, una diferencia de 11.0 puntos porcentuales respecto de Croatia."
   },
+  "content_analysis": {
+    "available": true,
+    "match": "Croatia vs England",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 6204,
+    "team1": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Croatia",
+      "sample_size": 3328,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "perisic",
+            "ivan",
+            "ivan perisic",
+            "scores",
+            "perisic scores",
+            "equaliser"
+          ],
+          "prevalence": 55.5,
+          "representative_tweet": "GOAL England Croatia Perisic",
+          "likes": 0,
+          "retweets": 22,
+          "terms_original": [
+            "perisic",
+            "ivan",
+            "ivan perisic",
+            "scores",
+            "perisic scores",
+            "equaliser"
+          ],
+          "terms_es": [
+            "Perišić",
+            "Ivan",
+            "Ivan Perišić",
+            "marca",
+            "puntuaciones perisicas",
+            "ecualizador"
+          ],
+          "representative_tweet_original": "GOAL England Croatia Perisic",
+          "representative_tweet_es": "¡Gol de Ivan Perišić! Inglaterra–Croacia.",
+          "terms_display_es": [
+            "Ivan Perišić",
+            "gol",
+            "empate"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "coming",
+            "home",
+            "coming home",
+            "time",
+            "come",
+            "extra"
+          ],
+          "prevalence": 44.5,
+          "representative_tweet": "England It is coming home Croatia Not this time",
+          "likes": 0,
+          "retweets": 4,
+          "terms_original": [
+            "coming",
+            "home",
+            "coming home",
+            "time",
+            "come",
+            "extra"
+          ],
+          "terms_es": [
+            "¡Ya voy!",
+            "eliminación",
+            "volver a casa",
+            "hora",
+            "Ven.",
+            "extra"
+          ],
+          "representative_tweet_original": "England It is coming home Croatia Not this time",
+          "representative_tweet_es": "Inglaterra: «El fútbol vuelve a casa». Croacia: «Esta vez no».",
+          "terms_display_es": [
+            "el fútbol vuelve a casa",
+            "tiempo extra",
+            "Croacia"
+          ]
+        }
+      ]
+    },
+    "team2": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "England",
+      "sample_size": 3956,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "home",
+            "coming",
+            "coming home",
+            "going",
+            "going home",
+            "time"
+          ],
+          "prevalence": 55.8,
+          "representative_tweet": "dedicate Coming Home to England Well done Croatia France",
+          "likes": 0,
+          "retweets": 121,
+          "terms_original": [
+            "home",
+            "coming",
+            "coming home",
+            "going",
+            "going home",
+            "time"
+          ],
+          "terms_es": [
+            "eliminación",
+            "¡Ya voy!",
+            "volver a casa",
+            "en marcha",
+            "eliminación",
+            "hora"
+          ],
+          "representative_tweet_original": "dedicate Coming Home to England Well done Croatia France",
+          "representative_tweet_es": "El «Coming Home» queda para Inglaterra. Bien hecho, Croacia.",
+          "terms_display_es": [
+            "el fútbol vuelve a casa",
+            "eliminación",
+            "Croacia"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "come",
+            "time",
+            "need",
+            "half",
+            "like",
+            "score"
+          ],
+          "prevalence": 44.2,
+          "representative_tweet": "Come on England Go for the final",
+          "likes": 0,
+          "retweets": 8,
+          "terms_original": [
+            "come",
+            "time",
+            "need",
+            "half",
+            "like",
+            "score"
+          ],
+          "terms_es": [
+            "Ven.",
+            "hora",
+            "necesidad",
+            "mitad",
+            "como",
+            "marcar"
+          ],
+          "representative_tweet_original": "Come on England Go for the final",
+          "representative_tweet_es": "¡Vamos, Inglaterra! A buscar la final.",
+          "terms_display_es": [
+            "Inglaterra",
+            "final",
+            "aliento"
+          ]
+        }
+      ]
+    },
+    "interpretation": "Los temas fueron identificados automáticamente a partir del contenido de los tuits mediante vectorización TF-IDF y modelado temático NMF.",
+    "translation": {
+      "available": true,
+      "language": "es",
+      "model": "Helsinki-NLP/opus-mt-en-es",
+      "method": "MarianMT + glosario futbolístico"
+    }
+  },
   "emotional_climate": {
     "available": true,
     "match": "Croatia vs England",
@@ -737,7 +937,7 @@
     ],
     "key_event": {
       "minute": 109,
-      "event": "Mandžukić clasifica a Croacia a la final",
+      "event": "Mario Mandžukić marca y pone en ventaja a Croacia",
       "importance": 10
     },
     "time_window_used": true,
@@ -794,6 +994,7 @@
     "show_social_analysis": true,
     "show_momentum": true,
     "show_featured_tweets": true,
+    "show_content_analysis": true,
     "coverage": {
       "status": "partial",
       "label": "Cobertura temporal parcial",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "belgium-vs-england-3rd-place",
   "match": "Belgium vs England (3rd Place)",
@@ -109,13 +109,25 @@
       "events": [
         {
           "minute": 4,
-          "event": "Meunier abre rápidamente el marcador para Bélgica",
-          "importance": 8
+          "minute_label": "4",
+          "event": "Thomas Meunier marca y pone en ventaja a Bélgica",
+          "importance": 10,
+          "team": "Belgium",
+          "player": "Thomas Meunier",
+          "event_type": "goal",
+          "score_after": "1-0",
+          "source": "StatsBomb"
         },
         {
           "minute": 82,
-          "event": "Hazard liquida el encuentro y asegura el tercer puesto",
-          "importance": 10
+          "minute_label": "82",
+          "event": "Eden Hazard marca y amplía la ventaja de Bélgica",
+          "importance": 7,
+          "team": "Belgium",
+          "player": "Eden Hazard",
+          "event_type": "goal",
+          "score_after": "2-0",
+          "source": "StatsBomb"
         }
       ],
       "shootout": []
@@ -414,6 +426,26 @@
     "difference": 0.0,
     "interpretation": "No existe cobertura suficiente para calcular el dominio de la conversación."
   },
+  "content_analysis": {
+    "available": false,
+    "match": "Belgium vs England (3rd Place)",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 0,
+    "team1": {
+      "available": false,
+      "team": "Belgium",
+      "sample_size": 0,
+      "topics": []
+    },
+    "team2": {
+      "available": false,
+      "team": "England",
+      "sample_size": 0,
+      "topics": []
+    },
+    "interpretation": "No existe una cantidad suficiente de tuits por selección para reconstruir los temas de la conversación con criterios confiables."
+  },
   "emotional_climate": {
     "available": false,
     "match": "Belgium vs England (3rd Place)",
@@ -548,6 +580,7 @@
     "show_social_analysis": false,
     "show_momentum": false,
     "show_featured_tweets": false,
+    "show_content_analysis": false,
     "coverage": {
       "status": "none",
       "label": "Sin cobertura temporal",

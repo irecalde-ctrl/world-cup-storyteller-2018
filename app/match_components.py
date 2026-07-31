@@ -144,11 +144,20 @@ def render_match_hero(
         }
 
         .hero-back {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
             margin-bottom: 55px;
+            padding: 11px 16px;
 
-            color: #8ed8f8 !important;
+            color: #ffffff !important;
             text-decoration: none !important;
+
+            background: #081a28;
+            border: 1px solid #d4af37;
+            border-radius: 9px;
+
+            box-shadow:
+                0 6px 18px rgba(0, 0, 0, 0.25);
 
             font-size: 15px;
             font-weight: 750;
@@ -156,6 +165,7 @@ def render_match_hero(
 
         .hero-back:hover {
             color: #ffffff !important;
+            background: #792d3b;
         }
 
         .hero-kicker {
@@ -653,6 +663,61 @@ from app_config import get_team_name_es
 from chart_config import get_match_colors
 
 
+
+def build_share_interpretation_es(
+    team1_es,
+    team2_es,
+    percentage1,
+    percentage2
+):
+
+    difference = abs(
+        percentage1
+        -
+        percentage2
+    )
+
+    percentage1_es = (
+        f"{percentage1:.1f}"
+        .replace(".", ",")
+    )
+
+    percentage2_es = (
+        f"{percentage2:.1f}"
+        .replace(".", ",")
+    )
+
+    difference_es = (
+        f"{difference:.1f}"
+        .replace(".", ",")
+    )
+
+    if difference < 0.05:
+
+        return (
+            f"{team1_es} y {team2_es} tuvieron "
+            "la misma participación en la conversación, "
+            f"con un {percentage1_es}% de las menciones "
+            "para cada equipo."
+        )
+
+    if percentage1 > percentage2:
+
+        return (
+            f"{team1_es} dominó la conversación con el "
+            f"{percentage1_es}% de las menciones, una "
+            f"diferencia de {difference_es} puntos "
+            f"porcentuales respecto de {team2_es}."
+        )
+
+    return (
+        f"{team2_es} dominó la conversación con el "
+        f"{percentage2_es}% de las menciones, una "
+        f"diferencia de {difference_es} puntos "
+        f"porcentuales respecto de {team1_es}."
+    )
+
+
 def render_share_of_voice(
     match_data,
     banderas_img
@@ -780,9 +845,11 @@ def render_share_of_voice(
         css_class="sov-flag"
     )
 
-    interpretation = share.get(
-        "interpretation",
-        ""
+    interpretation = build_share_interpretation_es(
+        team1_es,
+        team2_es,
+        percentage1,
+        percentage2
     )
 
     # -----------------------------------------------------

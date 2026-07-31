@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "france-vs-croatia",
   "match": "France vs Croatia",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 59: Pogba marca el 3-1 y cambia definitivamente el rumbo de la final. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 38: Antoine Griezmann convierte de penal y pone en ventaja a Francia. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -109,33 +109,69 @@
       "events": [
         {
           "minute": 18,
-          "event": "Mandžukić marca en contra y Francia se adelanta",
-          "importance": 5
+          "minute_label": "18",
+          "event": "Gol en contra de Mario Mandžukić: Francia se pone en ventaja",
+          "importance": 7,
+          "team": "France",
+          "player": "Mario Mandžukić",
+          "event_type": "own_goal",
+          "score_after": "1-0",
+          "source": "StatsBomb"
         },
         {
           "minute": 28,
-          "event": "Perišić empata para Croacia",
-          "importance": 8
+          "minute_label": "28",
+          "event": "Ivan Perišić marca y empata para Croacia",
+          "importance": 8,
+          "team": "Croatia",
+          "player": "Ivan Perišić",
+          "event_type": "goal",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 38,
-          "event": "Griezmann convierte de penal y devuelve la ventaja a Francia",
-          "importance": 9
+          "minute_label": "38",
+          "event": "Antoine Griezmann convierte de penal y pone en ventaja a Francia",
+          "importance": 10,
+          "team": "France",
+          "player": "Antoine Griezmann",
+          "event_type": "goal",
+          "score_after": "2-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 59,
-          "event": "Pogba marca el 3-1 y cambia definitivamente el rumbo de la final",
-          "importance": 10
+          "minute_label": "59",
+          "event": "Paul Pogba marca y amplía la ventaja de Francia",
+          "importance": 6,
+          "team": "France",
+          "player": "Paul Pogba",
+          "event_type": "goal",
+          "score_after": "3-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 65,
-          "event": "Mbappé marca el cuarto gol francés",
-          "importance": 9
+          "minute_label": "65",
+          "event": "Kylian Mbappé marca y amplía la ventaja de Francia",
+          "importance": 6,
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "event_type": "goal",
+          "score_after": "4-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 69,
-          "event": "Mandžukić descuenta tras un error de Lloris",
-          "importance": 3
+          "minute_label": "69",
+          "event": "Mario Mandžukić marca y descuenta para Croacia",
+          "importance": 5,
+          "team": "Croatia",
+          "player": "Mario Mandžukić",
+          "event_type": "goal",
+          "score_after": "4-2",
+          "source": "StatsBomb"
         }
       ],
       "shootout": []
@@ -434,6 +470,189 @@
     "difference": 27.8,
     "interpretation": "France dominó la conversación con el 63.9% de las menciones, una diferencia de 27.8 puntos porcentuales respecto de Croatia."
   },
+  "content_analysis": {
+    "available": true,
+    "match": "France vs Croatia",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 6070,
+    "team1": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "France",
+      "sample_size": 4593,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "congrats",
+            "champions",
+            "golden",
+            "young",
+            "ball",
+            "golden ball"
+          ],
+          "prevalence": 52.3,
+          "representative_tweet": "My winning design for Congrats France",
+          "likes": 11,
+          "retweets": 0,
+          "terms_original": [
+            "congrats",
+            "champions",
+            "golden",
+            "young",
+            "ball",
+            "golden ball"
+          ],
+          "terms_es": [
+            "felicidades",
+            "campeones",
+            "dorado",
+            "jóvenes",
+            "bola",
+            "bola dorada"
+          ],
+          "representative_tweet_original": "My winning design for Congrats France",
+          "representative_tweet_es": "Mi diseño ganador para celebrar a Francia. ¡Felicitaciones!",
+          "terms_display_es": [
+            "diseño ganador",
+            "Francia",
+            "felicitaciones"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "congratulations",
+            "champions",
+            "congratulations champions",
+            "winners",
+            "deserved",
+            "congratulations winners"
+          ],
+          "prevalence": 47.7,
+          "representative_tweet": "France Wins it Congratulations already",
+          "likes": 0,
+          "retweets": 36,
+          "terms_original": [
+            "congratulations",
+            "champions",
+            "congratulations champions",
+            "winners",
+            "deserved",
+            "congratulations winners"
+          ],
+          "terms_es": [
+            "enhorabuena",
+            "campeones",
+            "felicitaciones campeones",
+            "ganadores",
+            "merecida",
+            "felicitaciones a los ganadores"
+          ],
+          "representative_tweet_original": "France Wins it Congratulations already",
+          "representative_tweet_es": "Francia gana el Mundial. ¡Felicitaciones a los campeones!",
+          "terms_display_es": [
+            "campeones",
+            "Francia",
+            "felicitaciones"
+          ]
+        }
+      ]
+    },
+    "team2": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Croatia",
+      "sample_size": 2902,
+      "topics": [
+        {
+          "topic": 1,
+          "terms": [
+            "golden",
+            "ball",
+            "golden ball",
+            "luka",
+            "luka golden",
+            "young"
+          ],
+          "prevalence": 50.8,
+          "representative_tweet": "Luka Modric lands Golden Ball",
+          "likes": 0,
+          "retweets": 56,
+          "terms_original": [
+            "golden",
+            "ball",
+            "golden ball",
+            "luka",
+            "luka golden",
+            "young"
+          ],
+          "terms_es": [
+            "dorado",
+            "bola",
+            "bola dorada",
+            "luka",
+            "luka dorada",
+            "jóvenes"
+          ],
+          "representative_tweet_original": "Luka Modric lands Golden Ball",
+          "representative_tweet_es": "Luka Modrić se queda con el Balón de Oro.",
+          "terms_display_es": [
+            "Luka Modrić",
+            "Balón de Oro",
+            "premio"
+          ]
+        },
+        {
+          "topic": 2,
+          "terms": [
+            "president",
+            "croatian",
+            "croatian president",
+            "hug",
+            "hearts",
+            "love"
+          ],
+          "prevalence": 49.2,
+          "representative_tweet": "What neeta ambani is to IPL Croatian president is to this",
+          "likes": 0,
+          "retweets": 10,
+          "terms_original": [
+            "president",
+            "croatian",
+            "croatian president",
+            "hug",
+            "hearts",
+            "love"
+          ],
+          "terms_es": [
+            "presidente",
+            "croaciano",
+            "croatian presidente",
+            "Abrazo",
+            "corazones",
+            "amor"
+          ],
+          "representative_tweet_original": "What neeta ambani is to IPL Croatian president is to this",
+          "representative_tweet_es": "Lo que Nita Ambani representa para la IPL, la presidenta croata lo representa para este Mundial.",
+          "terms_display_es": [
+            "presidenta croata",
+            "apoyo",
+            "afecto",
+            "abrazos"
+          ]
+        }
+      ]
+    },
+    "interpretation": "Los temas fueron identificados automáticamente a partir del contenido de los tuits mediante vectorización TF-IDF y modelado temático NMF.",
+    "translation": {
+      "available": true,
+      "language": "es",
+      "model": "Helsinki-NLP/opus-mt-en-es",
+      "method": "MarianMT + glosario futbolístico"
+    }
+  },
   "emotional_climate": {
     "available": true,
     "match": "France vs Croatia",
@@ -599,8 +818,8 @@
       }
     ],
     "key_event": {
-      "minute": 59,
-      "event": "Pogba marca el 3-1 y cambia definitivamente el rumbo de la final",
+      "minute": 38,
+      "event": "Antoine Griezmann convierte de penal y pone en ventaja a Francia",
       "importance": 10
     },
     "time_window_used": true,
@@ -657,6 +876,7 @@
     "show_social_analysis": true,
     "show_momentum": true,
     "show_featured_tweets": true,
+    "show_content_analysis": true,
     "coverage": {
       "status": "partial",
       "label": "Cobertura temporal parcial",

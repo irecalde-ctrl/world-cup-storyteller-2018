@@ -25,6 +25,7 @@ from match_components import (
     render_featured_tweets,
     render_final_radiography
 )
+from content_analysis_component import render_content_analysis
 from match_charts import render_twitter_momentum
 
 
@@ -387,6 +388,16 @@ elif pantalla == "fases":
             margin: 0 auto;
         }}
 
+
+        .grilla-partidos:has(
+            > .tarjeta-partido:only-child
+        ) {{
+            grid-template-columns:
+                minmax(280px, 540px);
+
+            justify-content: center;
+        }}
+
                 .tarjeta-partido {{
             min-height: 72px;
             box-sizing: border-box;
@@ -474,6 +485,19 @@ elif pantalla == "fases":
 
         .pagina .btn-volver:hover {{
             color: #4f1822 !important;
+        }}
+
+
+
+        .pagina .btn-volver {{
+            color: #ffffff !important;
+            background: #081a28 !important;
+            border: 1px solid #c0a052 !important;
+        }}
+
+        .pagina .btn-volver:hover {{
+            color: #ffffff !important;
+            background: #792d3b !important;
         }}
 
 
@@ -702,6 +726,10 @@ elif pantalla == "partido":
     match_data,
     banderas_img
 )
+    render_content_analysis(
+        match_data,
+        banderas_img
+    )
     render_emotional_climate(
     match_data,
     banderas_img

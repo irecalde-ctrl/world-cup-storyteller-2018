@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "uruguay-vs-portugal",
   "match": "Uruguay vs Portugal",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 62: Cavani marca nuevamente y define el partido. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 62: Edinson Cavani marca y pone en ventaja a Uruguay. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -109,18 +109,36 @@
       "events": [
         {
           "minute": 7,
-          "event": "Cavani adelanta a Uruguay",
-          "importance": 7
+          "minute_label": "7",
+          "event": "Edinson Cavani marca y pone en ventaja a Uruguay",
+          "importance": 7,
+          "team": "Uruguay",
+          "player": "Edinson Cavani",
+          "event_type": "goal",
+          "score_after": "1-0",
+          "source": "StatsBomb"
         },
         {
           "minute": 55,
-          "event": "Pepe empata para Portugal",
-          "importance": 8
+          "minute_label": "55",
+          "event": "Pepe marca y empata para Portugal",
+          "importance": 8,
+          "team": "Portugal",
+          "player": "Pepe",
+          "event_type": "goal",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 62,
-          "event": "Cavani marca nuevamente y define el partido",
-          "importance": 10
+          "minute_label": "62",
+          "event": "Edinson Cavani marca y pone en ventaja a Uruguay",
+          "importance": 10,
+          "team": "Uruguay",
+          "player": "Edinson Cavani",
+          "event_type": "goal",
+          "score_after": "2-1",
+          "source": "StatsBomb"
         }
       ],
       "shootout": []
@@ -419,6 +437,186 @@
     "difference": 28.8,
     "interpretation": "Portugal dominó la conversación con el 64.4% de las menciones, una diferencia de 28.8 puntos porcentuales respecto de Uruguay."
   },
+  "content_analysis": {
+    "available": true,
+    "match": "Uruguay vs Portugal",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 1771,
+    "team1": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Uruguay",
+      "sample_size": 833,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "luis",
+            "cristiano",
+            "like",
+            "face",
+            "beat",
+            "live"
+          ],
+          "prevalence": 75.1,
+          "representative_tweet": "Cristiano Ronaldo is set to face Uruguay for the first time in his career",
+          "likes": 0,
+          "retweets": 11,
+          "terms_original": [
+            "luis",
+            "cristiano",
+            "like",
+            "face",
+            "beat",
+            "live"
+          ],
+          "terms_es": [
+            "luis",
+            "Cristiano",
+            "como",
+            "cara",
+            "vencer",
+            "vivo"
+          ],
+          "representative_tweet_original": "Cristiano Ronaldo is set to face Uruguay for the first time in his career",
+          "representative_tweet_es": "Cristiano Ronaldo se enfrenta por primera vez a Uruguay en su carrera.",
+          "terms_display_es": [
+            "Cristiano Ronaldo",
+            "Luis Suárez"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "score",
+            "prediction",
+            "predictions",
+            "pepe",
+            "score predictions",
+            "predict"
+          ],
+          "prevalence": 24.9,
+          "representative_tweet": "Portugal Uruguay Will Ronaldo score tonight",
+          "likes": 0,
+          "retweets": 7,
+          "terms_original": [
+            "score",
+            "prediction",
+            "predictions",
+            "pepe",
+            "score predictions",
+            "predict"
+          ],
+          "terms_es": [
+            "marcar",
+            "predicción",
+            "predicciones",
+            "Pepe",
+            "predicciones de puntuación",
+            "predecir"
+          ],
+          "representative_tweet_original": "Portugal Uruguay Will Ronaldo score tonight",
+          "representative_tweet_es": "Portugal–Uruguay: ¿marcará Ronaldo esta noche?",
+          "terms_display_es": [
+            "pronósticos",
+            "Ronaldo",
+            "Pepe"
+          ]
+        }
+      ]
+    },
+    "team2": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Portugal",
+      "sample_size": 1498,
+      "topics": [
+        {
+          "topic": 1,
+          "terms": [
+            "cristiano",
+            "lionel",
+            "lionel cristiano",
+            "scored",
+            "cristiano scored",
+            "cristiano lionel"
+          ],
+          "prevalence": 62.3,
+          "representative_tweet": "Lionel Messi Cristiano Ronaldo for next few nights",
+          "likes": 0,
+          "retweets": 0,
+          "terms_original": [
+            "cristiano",
+            "lionel",
+            "lionel cristiano",
+            "scored",
+            "cristiano scored",
+            "cristiano lionel"
+          ],
+          "terms_es": [
+            "Cristiano",
+            "lionel",
+            "lionel cristiano",
+            "marcó",
+            "cristiano anotado",
+            "cristiano leonel"
+          ],
+          "representative_tweet_original": "Lionel Messi Cristiano Ronaldo for next few nights",
+          "representative_tweet_es": "Lionel Messi y Cristiano Ronaldo, protagonistas de las próximas noches.",
+          "terms_display_es": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "goles"
+          ]
+        },
+        {
+          "topic": 2,
+          "terms": [
+            "home",
+            "going",
+            "going home",
+            "want",
+            "time",
+            "know"
+          ],
+          "prevalence": 37.7,
+          "representative_tweet": "Portugal is next Two O Ts are going home to the grassfields today",
+          "likes": 0,
+          "retweets": 0,
+          "terms_original": [
+            "home",
+            "going",
+            "going home",
+            "want",
+            "time",
+            "know"
+          ],
+          "terms_es": [
+            "eliminación",
+            "en marcha",
+            "eliminación",
+            "¿Quieres?",
+            "hora",
+            "saber"
+          ],
+          "representative_tweet_original": "Portugal is next Two O Ts are going home to the grassfields today",
+          "representative_tweet_es": "Portugal es el siguiente: hoy dos grandes figuras se vuelven a casa.",
+          "terms_display_es": [
+            "eliminación",
+            "figuras"
+          ]
+        }
+      ]
+    },
+    "interpretation": "Los temas fueron identificados automáticamente a partir del contenido de los tuits mediante vectorización TF-IDF y modelado temático NMF.",
+    "translation": {
+      "available": true,
+      "language": "es",
+      "model": "Helsinki-NLP/opus-mt-en-es",
+      "method": "MarianMT + glosario futbolístico"
+    }
+  },
   "emotional_climate": {
     "available": true,
     "match": "Uruguay vs Portugal",
@@ -585,7 +783,7 @@
     ],
     "key_event": {
       "minute": 62,
-      "event": "Cavani marca nuevamente y define el partido",
+      "event": "Edinson Cavani marca y pone en ventaja a Uruguay",
       "importance": 10
     },
     "time_window_used": false,
@@ -642,6 +840,7 @@
     "show_social_analysis": true,
     "show_momentum": false,
     "show_featured_tweets": true,
+    "show_content_analysis": true,
     "coverage": {
       "status": "none",
       "label": "Sin cobertura temporal",

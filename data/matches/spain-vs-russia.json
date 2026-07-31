@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "spain-vs-russia",
   "match": "Spain vs Russia",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 120: Rusia elimina a España en la definición por penales. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 120: Rusia gana la tanda de penales y avanza. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -169,74 +169,101 @@
       "events": [
         {
           "minute": 12,
-          "event": "Ignashevich marca en contra y adelanta a España",
-          "importance": 6
+          "minute_label": "12",
+          "event": "Gol en contra de Sergei Ignashevich: España se pone en ventaja",
+          "importance": 7,
+          "team": "Spain",
+          "player": "Sergei Ignashevich",
+          "event_type": "own_goal",
+          "score_after": "1-0",
+          "source": "StatsBomb"
         },
         {
           "minute": 41,
-          "event": "Dzyuba empata de penal",
-          "importance": 8
+          "minute_label": "41",
+          "event": "Artem Dzyuba convierte de penal y empata para Rusia",
+          "importance": 8,
+          "team": "Russia",
+          "player": "Artem Dzyuba",
+          "event_type": "goal",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 120,
-          "event": "Rusia elimina a España en la definición por penales",
-          "importance": 10
+          "minute_label": "Penales",
+          "event": "Rusia gana la tanda de penales y avanza",
+          "importance": 10,
+          "team": "Russia",
+          "player": null,
+          "event_type": "shootout_result",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         }
       ],
       "shootout": [
         {
           "order": 1,
           "team": "Spain",
-          "player": "Iniesta",
-          "outcome": "scored"
+          "player": "Andrés Iniesta",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 2,
           "team": "Russia",
-          "player": "Smolov",
-          "outcome": "scored"
+          "player": "Fyodor Smolov",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 3,
           "team": "Spain",
-          "player": "Piqué",
-          "outcome": "scored"
+          "player": "Gerard Piqué",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 4,
           "team": "Russia",
-          "player": "Ignashevich",
-          "outcome": "scored"
+          "player": "Sergei Ignashevich",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 5,
           "team": "Spain",
           "player": "Koke",
-          "outcome": "saved"
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 6,
           "team": "Russia",
-          "player": "Golovin",
-          "outcome": "scored"
+          "player": "Aleksandr Golovin",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 7,
           "team": "Spain",
           "player": "Sergio Ramos",
-          "outcome": "scored"
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 8,
           "team": "Russia",
-          "player": "Cheryshev",
-          "outcome": "scored"
+          "player": "Denis Cheryshev",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 9,
           "team": "Spain",
           "player": "Iago Aspas",
-          "outcome": "saved"
+          "outcome": "saved",
+          "source": "StatsBomb"
         }
       ]
     },
@@ -690,6 +717,189 @@
     "difference": 14.8,
     "interpretation": "Russia dominó la conversación con el 57.4% de las menciones, una diferencia de 14.8 puntos porcentuales respecto de Spain."
   },
+  "content_analysis": {
+    "available": true,
+    "match": "Spain vs Russia",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 2504,
+    "team1": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Spain",
+      "sample_size": 1224,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "penalty",
+            "penalties",
+            "shootout",
+            "beat",
+            "penalty shootout",
+            "reach"
+          ],
+          "prevalence": 61.5,
+          "representative_tweet": "Russia reach quarter finals after penalty shootout win over Spain",
+          "likes": 0,
+          "retweets": 0,
+          "terms_original": [
+            "penalty",
+            "penalties",
+            "shootout",
+            "beat",
+            "penalty shootout",
+            "reach"
+          ],
+          "terms_es": [
+            "penal",
+            "penales",
+            "Shootout",
+            "vencer",
+            "tanda de penales",
+            "alcance"
+          ],
+          "representative_tweet_original": "Russia reach quarter finals after penalty shootout win over Spain",
+          "representative_tweet_es": "Rusia alcanza los cuartos de final tras vencer a España en la tanda de penales.",
+          "terms_display_es": [
+            "tanda de penales",
+            "cuartos de final",
+            "victoria rusa"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "germany",
+            "going",
+            "italy",
+            "home",
+            "coming",
+            "like"
+          ],
+          "prevalence": 38.5,
+          "representative_tweet": "Out of Germany Spain Argentina Portugal",
+          "likes": 0,
+          "retweets": 1910,
+          "terms_original": [
+            "germany",
+            "going",
+            "italy",
+            "home",
+            "coming",
+            "like"
+          ],
+          "terms_es": [
+            "Alemania",
+            "en marcha",
+            "italia",
+            "eliminación",
+            "¡Ya voy!",
+            "como"
+          ],
+          "representative_tweet_original": "Out of Germany Spain Argentina Portugal",
+          "representative_tweet_es": "Alemania, España, Argentina y Portugal quedaron eliminadas del Mundial.",
+          "terms_display_es": [
+            "Alemania",
+            "Argentina",
+            "Portugal",
+            "eliminación"
+          ]
+        }
+      ]
+    },
+    "team2": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Russia",
+      "sample_size": 1777,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "penalties",
+            "beat",
+            "beat penalties",
+            "face",
+            "reach",
+            "penalties reach"
+          ],
+          "prevalence": 55.9,
+          "representative_tweet": "Russia beat Spain on penalties to reach World Cup quarter finals Francisco Leong Kiril",
+          "likes": 0,
+          "retweets": 34,
+          "terms_original": [
+            "penalties",
+            "beat",
+            "beat penalties",
+            "face",
+            "reach",
+            "penalties reach"
+          ],
+          "terms_es": [
+            "penales",
+            "vencer",
+            "penalizaciones por golpes",
+            "cara",
+            "alcance",
+            "las sanciones alcanzan"
+          ],
+          "representative_tweet_original": "Russia beat Spain on penalties to reach World Cup quarter finals Francisco Leong Kiril",
+          "representative_tweet_es": "Rusia venció a España por penales y avanzó a los cuartos de final del Mundial.",
+          "terms_display_es": [
+            "tanda de penales",
+            "cuartos de final",
+            "victoria"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "play",
+            "hosts",
+            "kicks"
+          ],
+          "prevalence": 44.1,
+          "representative_tweet": "Russia reach quarter finals after penalty shootout win over Spain",
+          "likes": 0,
+          "retweets": 0,
+          "terms_original": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "play",
+            "hosts",
+            "kicks"
+          ],
+          "terms_es": [
+            "penal",
+            "Shootout",
+            "tanda de penales",
+            "reproducir",
+            "hosts",
+            "patadas"
+          ],
+          "representative_tweet_original": "Russia reach quarter finals after penalty shootout win over Spain",
+          "representative_tweet_es": "El anfitrión Rusia alcanza los cuartos de final tras superar a España por penales.",
+          "terms_display_es": [
+            "tanda de penales",
+            "anfitrión",
+            "clasificación"
+          ]
+        }
+      ]
+    },
+    "interpretation": "Los temas fueron identificados automáticamente a partir del contenido de los tuits mediante vectorización TF-IDF y modelado temático NMF.",
+    "translation": {
+      "available": true,
+      "language": "es",
+      "model": "Helsinki-NLP/opus-mt-en-es",
+      "method": "MarianMT + glosario futbolístico"
+    }
+  },
   "emotional_climate": {
     "available": true,
     "match": "Spain vs Russia",
@@ -856,7 +1066,7 @@
     ],
     "key_event": {
       "minute": 120,
-      "event": "Rusia elimina a España en la definición por penales",
+      "event": "Rusia gana la tanda de penales y avanza",
       "importance": 10
     },
     "time_window_used": false,
@@ -913,6 +1123,7 @@
     "show_social_analysis": true,
     "show_momentum": false,
     "show_featured_tweets": true,
+    "show_content_analysis": true,
     "coverage": {
       "status": "none",
       "label": "Sin cobertura temporal",

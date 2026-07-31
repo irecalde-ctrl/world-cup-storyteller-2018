@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "brazil-vs-belgium",
   "match": "Brazil vs Belgium",
@@ -109,18 +109,36 @@
       "events": [
         {
           "minute": 13,
-          "event": "Fernandinho marca en contra y adelanta a Bélgica",
-          "importance": 7
+          "minute_label": "13",
+          "event": "Gol en contra de Fernandinho: Bélgica se pone en ventaja",
+          "importance": 10,
+          "team": "Belgium",
+          "player": "Fernandinho",
+          "event_type": "own_goal",
+          "score_after": "0-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 31,
-          "event": "De Bruyne culmina el contraataque y marca el segundo",
-          "importance": 10
+          "minute_label": "31",
+          "event": "Kevin De Bruyne marca y amplía la ventaja de Bélgica",
+          "importance": 6,
+          "team": "Belgium",
+          "player": "Kevin De Bruyne",
+          "event_type": "goal",
+          "score_after": "0-2",
+          "source": "StatsBomb"
         },
         {
           "minute": 76,
-          "event": "Renato Augusto descuenta para Brasil",
-          "importance": 7
+          "minute_label": "76",
+          "event": "Renato Augusto marca y descuenta para Brasil",
+          "importance": 5,
+          "team": "Brazil",
+          "player": "Renato Augusto",
+          "event_type": "goal",
+          "score_after": "1-2",
+          "source": "StatsBomb"
         }
       ],
       "shootout": []
@@ -419,6 +437,26 @@
     "difference": 0.0,
     "interpretation": "No existe cobertura suficiente para calcular el dominio de la conversación."
   },
+  "content_analysis": {
+    "available": false,
+    "match": "Brazil vs Belgium",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 0,
+    "team1": {
+      "available": false,
+      "team": "Brazil",
+      "sample_size": 0,
+      "topics": []
+    },
+    "team2": {
+      "available": false,
+      "team": "Belgium",
+      "sample_size": 0,
+      "topics": []
+    },
+    "interpretation": "No existe una cantidad suficiente de tuits por selección para reconstruir los temas de la conversación con criterios confiables."
+  },
   "emotional_climate": {
     "available": false,
     "match": "Brazil vs Belgium",
@@ -553,6 +591,7 @@
     "show_social_analysis": false,
     "show_momentum": false,
     "show_featured_tweets": false,
+    "show_content_analysis": false,
     "coverage": {
       "status": "none",
       "label": "Sin cobertura temporal",

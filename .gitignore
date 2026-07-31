@@ -22,3 +22,11 @@ Thumbs.db
 
 # Dataset original pesado
 FIFA.csv
+
+# Respaldos internos de la V2
+backups/
+app/*_before_*.py
+app/*_with_error.py
+README_before_*.md
+.gitignore_before_*
+*.tmp

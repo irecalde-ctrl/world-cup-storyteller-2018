@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "russia-vs-croatia",
   "match": "Russia vs Croatia",
@@ -169,90 +169,130 @@
       "events": [
         {
           "minute": 31,
-          "event": "Cheryshev marca un golazo para Rusia",
-          "importance": 8
+          "minute_label": "31",
+          "event": "Denis Cheryshev marca y pone en ventaja a Rusia",
+          "importance": 7,
+          "team": "Russia",
+          "player": "Denis Cheryshev",
+          "event_type": "goal",
+          "score_after": "1-0",
+          "source": "StatsBomb"
         },
         {
           "minute": 39,
-          "event": "Kramarić empata para Croacia",
-          "importance": 7
+          "minute_label": "39",
+          "event": "Andrej Kramarić marca y empata para Croacia",
+          "importance": 8,
+          "team": "Croatia",
+          "player": "Andrej Kramarić",
+          "event_type": "goal",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 101,
-          "event": "Vida adelanta a Croacia en el tiempo suplementario",
-          "importance": 8
+          "minute_label": "101",
+          "event": "Domagoj Vida marca y pone en ventaja a Croacia",
+          "importance": 8,
+          "team": "Croatia",
+          "player": "Domagoj Vida",
+          "event_type": "goal",
+          "score_after": "1-2",
+          "source": "StatsBomb"
         },
         {
           "minute": 115,
-          "event": "Fernandes empata para Rusia sobre el final",
-          "importance": 9
+          "minute_label": "115",
+          "event": "Mário Fernandes marca y empata para Rusia",
+          "importance": 9,
+          "team": "Russia",
+          "player": "Mário Fernandes",
+          "event_type": "goal",
+          "score_after": "2-2",
+          "source": "StatsBomb"
         },
         {
           "minute": 120,
-          "event": "Croacia vuelve a clasificar en los penales",
-          "importance": 10
+          "minute_label": "Penales",
+          "event": "Croacia gana la tanda de penales y avanza",
+          "importance": 10,
+          "team": "Croatia",
+          "player": null,
+          "event_type": "shootout_result",
+          "score_after": "2-2",
+          "source": "StatsBomb"
         }
       ],
       "shootout": [
         {
           "order": 1,
           "team": "Russia",
-          "player": "Smolov",
-          "outcome": "saved"
+          "player": "Fyodor Smolov",
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 2,
           "team": "Croatia",
-          "player": "Brozović",
-          "outcome": "scored"
+          "player": "Marcelo Brozović",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 3,
           "team": "Russia",
-          "player": "Dzagoev",
-          "outcome": "scored"
+          "player": "Alan Dzagoev",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 4,
           "team": "Croatia",
-          "player": "Kovačić",
-          "outcome": "saved"
+          "player": "Mateo Kovačić",
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 5,
           "team": "Russia",
           "player": "Mário Fernandes",
-          "outcome": "missed"
+          "outcome": "missed",
+          "source": "StatsBomb"
         },
         {
           "order": 6,
           "team": "Croatia",
-          "player": "Modrić",
-          "outcome": "scored"
+          "player": "Luka Modrić",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 7,
           "team": "Russia",
-          "player": "Ignashevich",
-          "outcome": "scored"
+          "player": "Sergei Ignashevich",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 8,
           "team": "Croatia",
-          "player": "Vida",
-          "outcome": "scored"
+          "player": "Domagoj Vida",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 9,
           "team": "Russia",
-          "player": "Kuzyaev",
-          "outcome": "scored"
+          "player": "Daler Kuzyaev",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 10,
           "team": "Croatia",
-          "player": "Rakitić",
-          "outcome": "scored"
+          "player": "Ivan Rakitić",
+          "outcome": "scored",
+          "source": "StatsBomb"
         }
       ]
     },
@@ -706,6 +746,26 @@
     "difference": 0.0,
     "interpretation": "No existe cobertura suficiente para calcular el dominio de la conversación."
   },
+  "content_analysis": {
+    "available": false,
+    "match": "Russia vs Croatia",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 0,
+    "team1": {
+      "available": false,
+      "team": "Russia",
+      "sample_size": 0,
+      "topics": []
+    },
+    "team2": {
+      "available": false,
+      "team": "Croatia",
+      "sample_size": 0,
+      "topics": []
+    },
+    "interpretation": "No existe una cantidad suficiente de tuits por selección para reconstruir los temas de la conversación con criterios confiables."
+  },
   "emotional_climate": {
     "available": false,
     "match": "Russia vs Croatia",
@@ -840,6 +900,7 @@
     "show_social_analysis": false,
     "show_momentum": false,
     "show_featured_tweets": false,
+    "show_content_analysis": false,
     "coverage": {
       "status": "none",
       "label": "Sin cobertura temporal",

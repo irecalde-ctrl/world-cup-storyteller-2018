@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "croatia-vs-denmark",
   "match": "Croatia vs Denmark",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 120: Croacia clasifica en la definición por penales. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 120: Croacia gana la tanda de penales y avanza. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -169,85 +169,108 @@
       "events": [
         {
           "minute": 1,
-          "event": "Jørgensen marca para Dinamarca",
-          "importance": 7
+          "minute_label": "1",
+          "event": "Zanka marca y pone en ventaja a Dinamarca",
+          "importance": 7,
+          "team": "Denmark",
+          "player": "Zanka",
+          "event_type": "goal",
+          "score_after": "0-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 4,
-          "event": "Mandžukić empata para Croacia",
-          "importance": 7
-        },
-        {
-          "minute": 116,
-          "event": "Schmeichel ataja un penal a Modrić",
-          "importance": 9
+          "minute_label": "4",
+          "event": "Mario Mandžukić marca y empata para Croacia",
+          "importance": 8,
+          "team": "Croatia",
+          "player": "Mario Mandžukić",
+          "event_type": "goal",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 120,
-          "event": "Croacia clasifica en la definición por penales",
-          "importance": 10
+          "minute_label": "Penales",
+          "event": "Croacia gana la tanda de penales y avanza",
+          "importance": 10,
+          "team": "Croatia",
+          "player": null,
+          "event_type": "shootout_result",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         }
       ],
       "shootout": [
         {
           "order": 1,
           "team": "Denmark",
-          "player": "Eriksen",
-          "outcome": "saved"
+          "player": "Christian Eriksen",
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 2,
           "team": "Croatia",
-          "player": "Badelj",
-          "outcome": "saved"
+          "player": "Milan Badelj",
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 3,
           "team": "Denmark",
-          "player": "Kjær",
-          "outcome": "scored"
+          "player": "Simon Kjær",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 4,
           "team": "Croatia",
-          "player": "Kramarić",
-          "outcome": "scored"
+          "player": "Andrej Kramarić",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 5,
           "team": "Denmark",
-          "player": "Krohn-Dehli",
-          "outcome": "scored"
+          "player": "Michael Krohn-Dehli",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 6,
           "team": "Croatia",
-          "player": "Modrić",
-          "outcome": "scored"
+          "player": "Luka Modrić",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 7,
           "team": "Denmark",
-          "player": "Schöne",
-          "outcome": "saved"
+          "player": "Lasse Schöne",
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 8,
           "team": "Croatia",
-          "player": "Pivarić",
-          "outcome": "saved"
+          "player": "Josip Pivarić",
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 9,
           "team": "Denmark",
-          "player": "Jørgensen",
-          "outcome": "saved"
+          "player": "Nicolai Jørgensen",
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 10,
           "team": "Croatia",
-          "player": "Rakitić",
-          "outcome": "scored"
+          "player": "Ivan Rakitić",
+          "outcome": "scored",
+          "source": "StatsBomb"
         }
       ]
     },
@@ -701,6 +724,188 @@
     "difference": 34.6,
     "interpretation": "Croatia dominó la conversación con el 67.3% de las menciones, una diferencia de 34.6 puntos porcentuales respecto de Denmark."
   },
+  "content_analysis": {
+    "available": true,
+    "match": "Croatia vs Denmark",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 4997,
+    "team1": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Croatia",
+      "sample_size": 4193,
+      "topics": [
+        {
+          "topic": 1,
+          "terms": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "shoot",
+            "penalty shoot",
+            "dramatic"
+          ],
+          "prevalence": 57.2,
+          "representative_tweet": "Croatia are through Penalty Shootout",
+          "likes": 1,
+          "retweets": 0,
+          "terms_original": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "shoot",
+            "penalty shoot",
+            "dramatic"
+          ],
+          "terms_es": [
+            "penal",
+            "Shootout",
+            "tanda de penales",
+            "disparar",
+            "penality shoot",
+            "dramático"
+          ],
+          "representative_tweet_original": "Croatia are through Penalty Shootout",
+          "representative_tweet_es": "Croacia avanza tras imponerse en la tanda de penales.",
+          "terms_display_es": [
+            "tanda de penales",
+            "clasificación",
+            "drama"
+          ]
+        },
+        {
+          "topic": 2,
+          "terms": [
+            "penalties",
+            "beat",
+            "beat penalties",
+            "time",
+            "face",
+            "advance"
+          ],
+          "prevalence": 42.8,
+          "representative_tweet": "CROATIA HAVE DONE IT after penalties",
+          "likes": 0,
+          "retweets": 27,
+          "terms_original": [
+            "penalties",
+            "beat",
+            "beat penalties",
+            "time",
+            "face",
+            "advance"
+          ],
+          "terms_es": [
+            "penales",
+            "vencer",
+            "penalizaciones por golpes",
+            "hora",
+            "cara",
+            "avance"
+          ],
+          "representative_tweet_original": "CROATIA HAVE DONE IT after penalties",
+          "representative_tweet_es": "Croacia lo logró después de la tanda de penales.",
+          "terms_display_es": [
+            "penales",
+            "clasificación",
+            "celebración"
+          ]
+        }
+      ]
+    },
+    "team2": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Denmark",
+      "sample_size": 2059,
+      "topics": [
+        {
+          "topic": 1,
+          "terms": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "shoot",
+            "penalty shoot",
+            "schmeichel"
+          ],
+          "prevalence": 53.9,
+          "representative_tweet": "Very unlucky for Denmark What penalty shootout that was",
+          "likes": 0,
+          "retweets": 1,
+          "terms_original": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "shoot",
+            "penalty shoot",
+            "schmeichel"
+          ],
+          "terms_es": [
+            "penal",
+            "Shootout",
+            "tanda de penales",
+            "disparar",
+            "penality shoot",
+            "Schmeichel"
+          ],
+          "representative_tweet_original": "Very unlucky for Denmark What penalty shootout that was",
+          "representative_tweet_es": "Qué mala suerte para Dinamarca. Qué tanda de penales.",
+          "terms_display_es": [
+            "tanda de penales",
+            "Schmeichel",
+            "mala suerte"
+          ]
+        },
+        {
+          "topic": 2,
+          "terms": [
+            "penalties",
+            "beat",
+            "beat penalties",
+            "penalties reach",
+            "reach",
+            "advance"
+          ],
+          "prevalence": 46.1,
+          "representative_tweet": "Denmark out of the World Cup on penalties",
+          "likes": 0,
+          "retweets": 36,
+          "terms_original": [
+            "penalties",
+            "beat",
+            "beat penalties",
+            "penalties reach",
+            "reach",
+            "advance"
+          ],
+          "terms_es": [
+            "penales",
+            "vencer",
+            "penalizaciones por golpes",
+            "las sanciones alcanzan",
+            "alcance",
+            "avance"
+          ],
+          "representative_tweet_original": "Denmark out of the World Cup on penalties",
+          "representative_tweet_es": "Dinamarca quedó eliminada del Mundial por penales.",
+          "terms_display_es": [
+            "eliminación",
+            "penales",
+            "Mundial"
+          ]
+        }
+      ]
+    },
+    "interpretation": "Los temas fueron identificados automáticamente a partir del contenido de los tuits mediante vectorización TF-IDF y modelado temático NMF.",
+    "translation": {
+      "available": true,
+      "language": "es",
+      "model": "Helsinki-NLP/opus-mt-en-es",
+      "method": "MarianMT + glosario futbolístico"
+    }
+  },
   "emotional_climate": {
     "available": true,
     "match": "Croatia vs Denmark",
@@ -867,7 +1072,7 @@
     ],
     "key_event": {
       "minute": 120,
-      "event": "Croacia clasifica en la definición por penales",
+      "event": "Croacia gana la tanda de penales y avanza",
       "importance": 10
     },
     "time_window_used": true,
@@ -924,6 +1129,7 @@
     "show_social_analysis": true,
     "show_momentum": true,
     "show_featured_tweets": true,
+    "show_content_analysis": true,
     "coverage": {
       "status": "partial",
       "label": "Cobertura temporal parcial",

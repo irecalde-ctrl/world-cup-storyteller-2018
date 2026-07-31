@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "brazil-vs-mexico",
   "match": "Brazil vs Mexico",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 51: Neymar abre el marcador para Brasil. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 51: Neymar marca y pone en ventaja a Brasil. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -109,13 +109,25 @@
       "events": [
         {
           "minute": 51,
-          "event": "Neymar abre el marcador para Brasil",
-          "importance": 10
+          "minute_label": "51",
+          "event": "Neymar marca y pone en ventaja a Brasil",
+          "importance": 10,
+          "team": "Brazil",
+          "player": "Neymar",
+          "event_type": "goal",
+          "score_after": "1-0",
+          "source": "StatsBomb"
         },
         {
           "minute": 88,
-          "event": "Firmino liquida el encuentro",
-          "importance": 6
+          "minute_label": "88",
+          "event": "Roberto Firmino marca y amplía la ventaja de Brasil",
+          "importance": 7,
+          "team": "Brazil",
+          "player": "Roberto Firmino",
+          "event_type": "goal",
+          "score_after": "2-0",
+          "source": "StatsBomb"
         }
       ],
       "shootout": []
@@ -414,6 +426,26 @@
     "difference": 2.2,
     "interpretation": "Brazil dominó la conversación con el 51.1% de las menciones, una diferencia de 2.2 puntos porcentuales respecto de Mexico."
   },
+  "content_analysis": {
+    "available": false,
+    "match": "Brazil vs Mexico",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 137,
+    "team1": {
+      "available": false,
+      "team": "Brazil",
+      "sample_size": 100,
+      "topics": []
+    },
+    "team2": {
+      "available": false,
+      "team": "Mexico",
+      "sample_size": 91,
+      "topics": []
+    },
+    "interpretation": "No existe una cantidad suficiente de tuits por selección para reconstruir los temas de la conversación con criterios confiables."
+  },
   "emotional_climate": {
     "available": true,
     "match": "Brazil vs Mexico",
@@ -546,7 +578,7 @@
     "tweets": [],
     "key_event": {
       "minute": 51,
-      "event": "Neymar abre el marcador para Brasil",
+      "event": "Neymar marca y pone en ventaja a Brasil",
       "importance": 10
     },
     "time_window_used": false,
@@ -603,6 +635,7 @@
     "show_social_analysis": true,
     "show_momentum": false,
     "show_featured_tweets": false,
+    "show_content_analysis": false,
     "coverage": {
       "status": "none",
       "label": "Sin cobertura temporal",

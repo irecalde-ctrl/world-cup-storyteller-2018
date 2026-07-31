@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "status": "ready",
   "slug": "colombia-vs-england",
   "match": "Colombia vs England",
@@ -50,7 +50,7 @@
     },
     "turning_point": {
       "title": "El punto de quiebre",
-      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 120: Inglaterra rompe su maldición y avanza en los penales. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
+      "text": "El punto de quiebre de la reconstrucción deportiva llegó en el minuto 120: Inglaterra gana la tanda de penales y avanza. Por su importancia y por el impacto que tuvo sobre el desarrollo del encuentro, ese momento resume el cambio central de la historia."
     },
     "outcome": {
       "title": "El desenlace",
@@ -169,18 +169,36 @@
       "events": [
         {
           "minute": 57,
-          "event": "Kane convierte de penal para Inglaterra",
-          "importance": 7
+          "minute_label": "57",
+          "event": "Harry Kane convierte de penal y pone en ventaja a Inglaterra",
+          "importance": 7,
+          "team": "England",
+          "player": "Harry Kane",
+          "event_type": "goal",
+          "score_after": "0-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 93,
-          "event": "Mina empata para Colombia sobre el final",
-          "importance": 9
+          "minute_label": "90+3",
+          "event": "Yerry Mina marca y empata para Colombia",
+          "importance": 9,
+          "team": "Colombia",
+          "player": "Yerry Mina",
+          "event_type": "goal",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         },
         {
           "minute": 120,
-          "event": "Inglaterra rompe su maldición y avanza en los penales",
-          "importance": 10
+          "minute_label": "Penales",
+          "event": "Inglaterra gana la tanda de penales y avanza",
+          "importance": 10,
+          "team": "England",
+          "player": null,
+          "event_type": "shootout_result",
+          "score_after": "1-1",
+          "source": "StatsBomb"
         }
       ],
       "shootout": [
@@ -188,61 +206,71 @@
           "order": 1,
           "team": "Colombia",
           "player": "Falcao",
-          "outcome": "scored"
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 2,
           "team": "England",
           "player": "Harry Kane",
-          "outcome": "scored"
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 3,
           "team": "Colombia",
-          "player": "Cuadrado",
-          "outcome": "scored"
+          "player": "Juan Cuadrado",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 4,
           "team": "England",
-          "player": "Rashford",
-          "outcome": "scored"
+          "player": "Marcus Rashford",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 5,
           "team": "Colombia",
           "player": "Luis Muriel",
-          "outcome": "scored"
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 6,
           "team": "England",
-          "player": "Henderson",
-          "outcome": "saved"
+          "player": "Jordan Henderson",
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 7,
           "team": "Colombia",
           "player": "Mateus Uribe",
-          "outcome": "missed"
+          "outcome": "missed",
+          "source": "StatsBomb"
         },
         {
           "order": 8,
           "team": "England",
-          "player": "Trippier",
-          "outcome": "scored"
+          "player": "Kieran Trippier",
+          "outcome": "scored",
+          "source": "StatsBomb"
         },
         {
           "order": 9,
           "team": "Colombia",
           "player": "Carlos Bacca",
-          "outcome": "saved"
+          "outcome": "saved",
+          "source": "StatsBomb"
         },
         {
           "order": 10,
           "team": "England",
           "player": "Eric Dier",
-          "outcome": "scored"
+          "outcome": "scored",
+          "source": "StatsBomb"
         }
       ]
     },
@@ -696,6 +724,188 @@
     "difference": 55.4,
     "interpretation": "England dominó la conversación con el 77.7% de las menciones, una diferencia de 55.4 puntos porcentuales respecto de Colombia."
   },
+  "content_analysis": {
+    "available": true,
+    "match": "Colombia vs England",
+    "method": "TF-IDF + NMF",
+    "minimum_tweets_per_team": 200,
+    "sample_size": 1040,
+    "team1": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "Colombia",
+      "sample_size": 298,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "time",
+            "fans",
+            "colombian"
+          ],
+          "prevalence": 59.2,
+          "representative_tweet": "Colombia England England have won penalty shootout",
+          "likes": 0,
+          "retweets": 87,
+          "terms_original": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "time",
+            "fans",
+            "colombian"
+          ],
+          "terms_es": [
+            "penal",
+            "Shootout",
+            "tanda de penales",
+            "hora",
+            "ventiladores",
+            "colombiano"
+          ],
+          "representative_tweet_original": "Colombia England England have won penalty shootout",
+          "representative_tweet_es": "Inglaterra ganó la tanda de penales ante Colombia.",
+          "terms_display_es": [
+            "tanda de penales",
+            "Inglaterra",
+            "hinchas"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "penalties",
+            "beat penalties",
+            "beat",
+            "reach",
+            "penalties reach",
+            "beats penalties"
+          ],
+          "prevalence": 40.8,
+          "representative_tweet": "beat Colombia on penalties to reach the Quarter Finals",
+          "likes": 0,
+          "retweets": 71,
+          "terms_original": [
+            "penalties",
+            "beat penalties",
+            "beat",
+            "reach",
+            "penalties reach",
+            "beats penalties"
+          ],
+          "terms_es": [
+            "penales",
+            "penalizaciones por golpes",
+            "vencer",
+            "alcance",
+            "las sanciones alcanzan",
+            "vence a las sanciones"
+          ],
+          "representative_tweet_original": "beat Colombia on penalties to reach the Quarter Finals",
+          "representative_tweet_es": "Inglaterra venció a Colombia por penales y avanzó a los cuartos de final.",
+          "terms_display_es": [
+            "penales",
+            "cuartos de final",
+            "clasificación"
+          ]
+        }
+      ]
+    },
+    "team2": {
+      "available": true,
+      "method": "TF-IDF + NMF",
+      "team": "England",
+      "sample_size": 889,
+      "topics": [
+        {
+          "topic": 2,
+          "terms": [
+            "home",
+            "coming",
+            "coming home",
+            "penalties",
+            "beat",
+            "come"
+          ],
+          "prevalence": 51.9,
+          "representative_tweet": "ENGLAND ITs COMING HOME",
+          "likes": 0,
+          "retweets": 38,
+          "terms_original": [
+            "home",
+            "coming",
+            "coming home",
+            "penalties",
+            "beat",
+            "come"
+          ],
+          "terms_es": [
+            "eliminación",
+            "¡Ya voy!",
+            "volver a casa",
+            "penales",
+            "vencer",
+            "Ven."
+          ],
+          "representative_tweet_original": "ENGLAND ITs COMING HOME",
+          "representative_tweet_es": "¡Inglaterra! El fútbol vuelve a casa.",
+          "terms_display_es": [
+            "el fútbol vuelve a casa",
+            "victoria",
+            "Inglaterra"
+          ]
+        },
+        {
+          "topic": 1,
+          "terms": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "time",
+            "penalty shoot",
+            "shoot"
+          ],
+          "prevalence": 48.1,
+          "representative_tweet": "Colombia England England have won penalty shootout",
+          "likes": 0,
+          "retweets": 87,
+          "terms_original": [
+            "penalty",
+            "shootout",
+            "penalty shootout",
+            "time",
+            "penalty shoot",
+            "shoot"
+          ],
+          "terms_es": [
+            "penal",
+            "Shootout",
+            "tanda de penales",
+            "hora",
+            "penality shoot",
+            "disparar"
+          ],
+          "representative_tweet_original": "Colombia England England have won penalty shootout",
+          "representative_tweet_es": "Inglaterra ganó la tanda de penales ante Colombia.",
+          "terms_display_es": [
+            "tanda de penales",
+            "victoria",
+            "Inglaterra"
+          ]
+        }
+      ]
+    },
+    "interpretation": "Los temas fueron identificados automáticamente a partir del contenido de los tuits mediante vectorización TF-IDF y modelado temático NMF.",
+    "translation": {
+      "available": true,
+      "language": "es",
+      "model": "Helsinki-NLP/opus-mt-en-es",
+      "method": "MarianMT + glosario futbolístico"
+    }
+  },
   "emotional_climate": {
     "available": true,
     "match": "Colombia vs England",
@@ -862,7 +1072,7 @@
     ],
     "key_event": {
       "minute": 120,
-      "event": "Inglaterra rompe su maldición y avanza en los penales",
+      "event": "Inglaterra gana la tanda de penales y avanza",
       "importance": 10
     },
     "time_window_used": true,
@@ -919,6 +1129,7 @@
     "show_social_analysis": true,
     "show_momentum": false,
     "show_featured_tweets": true,
+    "show_content_analysis": true,
     "coverage": {
       "status": "none",
       "label": "Sin cobertura temporal",
